@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: blue;
+  font-weight: 500;
 }
 
 .App-logo {
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-image {
+  background-color: aliceblue;
+  background-image: url("/src/images/dataviz.png");
+}
+body {
+  background-color: aliceblue;
+  background-image: url("/src/images/dataviz.png");
+  color: blue;
 }

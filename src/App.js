@@ -7,13 +7,16 @@ import Mentors from './components/Mentors';
 import Resource from './components/Resource';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import Contact from './components/Contact';
 
 
 function App() {
   return (
     <div className="App">
+      
       <Navigation/>            
           <Switch>
+             <Route path='/contact' component={Contact}/>
              <Route path='/resources' component={Resource}/>
              <Route path='/mentors' component={Mentors}/>
              <Route path='/schedule' component={Schedule}/>                
