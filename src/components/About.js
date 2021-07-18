@@ -16,7 +16,7 @@ class About extends React.Component {
                 <div class="col-lg-5">
                   <h1 class="font-weight-light">About DSGT Bootcamp</h1>
                   <p>
-                    About page
+                    About page for DSGT Bootcamp. Insert stuff on why DSGT Bootcamp is the ideal place towards growing your data science career
                   </p>
                 </div>
               </div>
