@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Rotate from 'react-reveal/Rotate';
+import Slide from 'react-reveal/Slide';
 class About extends React.Component {
     render() {
         return (
@@ -14,9 +15,9 @@ class About extends React.Component {
                   />
                 </div>
                 <div class="col-lg-5">
-                  <h1 class="font-weight-light">About DSGT Bootcamp</h1>
+                <Rotate top left><h1 class="font-weight-light">About DSGT Bootcamp</h1></Rotate>
                   <p>
-                    About page for DSGT Bootcamp. Insert stuff on why DSGT Bootcamp is the ideal place towards growing your data science career
+                    <Slide bottom>About page for DSGT Bootcamp. Insert stuff on why DSGT Bootcamp is the ideal place towards growing your data science career</Slide>
                   </p>
                 </div>
               </div>

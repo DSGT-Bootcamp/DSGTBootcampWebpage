@@ -39,9 +39,11 @@
   }
 }
 
+
 .bg-image {
   background-color: aliceblue;
   background-image: url("/src/images/dataviz.png");
+  
 }
 body {
   background-color: aliceblue;

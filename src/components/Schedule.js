@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Zoom from 'react-reveal/Zoom';
+import Roll from 'react-reveal/Roll';
 class Schedule extends React.Component {
     render() {
         return (
@@ -14,9 +15,9 @@ class Schedule extends React.Component {
                   />
                 </div>
                 <div class="col-lg-5">
-                  <h1 class="font-weight-light">Schedule</h1>
+                  <Roll right><h1 class="font-weight-light">Schedule</h1></Roll>
                   <p>
-                    Schedule for DSGT Bootcamp workshops. Put link to Google Colab notebook here. Schedule should be a table!
+                    <Zoom left>Schedule for DSGT Bootcamp workshops. Put link to Google Colab notebook here. Schedule should be a table!</Zoom>
                   </p>
                 </div>
               </div>

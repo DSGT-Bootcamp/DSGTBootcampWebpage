@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Flip from 'react-reveal/Flip';
+import LightSpeed from 'react-reveal/LightSpeed';
 class Mentors extends React.Component {
     render() {
         return (
@@ -14,10 +15,10 @@ class Mentors extends React.Component {
                   />
                 </div>
                 <div class="col-lg-5">
-                  <h1 class="font-weight-light">Meet the Mentors</h1>
+                  <Flip right><h1 class="font-weight-light">Meet the Mentors</h1></Flip>
                   <p>
-                    DSGT Bootcamp Mentors (ie: Content Team members)
-                    Each content team member should insert a picture of themselves along with a brief description of their background, hobbies, interests, etc
+                    <LightSpeed left>DSGT Bootcamp Mentors (ie: Content Team members)
+                    Each content team member should insert a picture of themselves along with a brief description of their background, hobbies, interests, etc</LightSpeed>
                   </p>
                 </div>
               </div>

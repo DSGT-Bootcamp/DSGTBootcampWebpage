@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 class Home extends React.Component {
   render() {
     return (
@@ -14,9 +15,9 @@ class Home extends React.Component {
               />
             </div>
             <div class="col-lg-5">
-              <h1 class="font-weight-light">Home</h1>
+              <Bounce left><h1 class="font-weight-light">Home</h1></Bounce>
               <p>
-                Home page for DSGT Bootcamp. Make this page very appealing and eye-catching
+                <Fade right>Home page for DSGT Bootcamp. Make this page very appealing and eye-catching</Fade>
               </p>
             </div>
           </div>

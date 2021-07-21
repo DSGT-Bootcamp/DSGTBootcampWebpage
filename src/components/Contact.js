@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Fade from 'react-reveal/Fade';
 class Contact extends React.Component {
   render() {
     return (
@@ -14,9 +14,9 @@ class Contact extends React.Component {
               />
             </div>
             <div class="col-lg-5">
-              <h1 class="font-weight-light">Contact Us</h1>
+              <Fade left><h1 class="font-weight-light">Contact Us</h1></Fade>
               <p>
-                Put contact info for DSGT here
+              <Fade right>Put contact info for DSGT here</Fade>
               </p>
               
             </div>
