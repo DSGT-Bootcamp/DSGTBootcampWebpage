@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import { SocialIcon } from 'react-social-icons';
 class Contact extends React.Component {
   render() {
     return (
@@ -16,10 +17,13 @@ class Contact extends React.Component {
             <div class="col-lg-5">
               <Fade left><h1 class="font-weight-light">Contact Us</h1></Fade>
               <p>
-              <Fade right>Put contact info for DSGT here</Fade>
+              <Fade right><a href = "mailto: hello@datasciencegt.org"><font size="+3">Email DSGT</font></a></Fade>
+              
               </p>
               
             </div>
+            <Fade right><SocialIcon url="https://www.facebook.com/datasciencegt/" style={{ height: 100, width: 100 }}/></Fade>
+            <Fade right><SocialIcon url="https://www.linkedin.com/company/dsgt/mycompany/" style={{ height: 100, width: 100 }} /></Fade>
           </div>
         </div>
       </div>
