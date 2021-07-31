@@ -8,19 +8,32 @@ class About extends React.Component {
             <div class="container">
               <div class="row align-items-center my-5">
                 <div class="col-lg-7">
-                  <img
+                  {/* <img
                     class="img-fluid rounded mb-4 mb-lg-0"
-                    src="http://placehold.it/900x400"
+                    src="https://www.crn.com/resources/025e-0fb69052958d-257fbfe990c4-1000/ai-artificial-intelligence-mind.jpg"
                     alt=""
-                  />
+                  /> */}
                 </div>
                 <div class="col-lg-5">
                 <Rotate top left><h1 class="font-weight-light">About DSGT Bootcamp</h1></Rotate>
                   <p>
-                    <Slide bottom>About page for DSGT Bootcamp. Insert stuff on why DSGT Bootcamp is the ideal place towards growing your data science career</Slide>
+                    <Slide bottom>DSGT bootcamp is an immersive 11-week experience where you’ll
+                                  learn a variety of data science skills and work in teams to answer 
+                                  significant questions by analyzing data. Our mentors will host 
+                                  workshops and guide you through your projects. We work in iterative
+                                  milestones and provide feedback on your work. DSGT Bootcamp is the ideal place to 
+                                  jumpstart your data science career!
+                    </Slide>
                   </p>
                 </div>
               </div>
+              <img
+                class="img-fluid rounded mb-4 mb-lg-0"
+                src="https://www.crn.com/resources/025e-0fb69052958d-257fbfe990c4-1000/ai-artificial-intelligence-mind.jpg"
+                height="450"
+                width="400"
+                alt=""
+              />
             </div>
           </div>
         );
