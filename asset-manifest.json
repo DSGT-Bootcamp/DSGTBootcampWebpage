@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DSGTBootcampWebpage/static/css/main.7b56a84c.chunk.css",
+    "main.js": "/DSGTBootcampWebpage/static/js/main.96453a25.chunk.js",
+    "main.js.map": "/DSGTBootcampWebpage/static/js/main.96453a25.chunk.js.map",
+    "runtime-main.js": "/DSGTBootcampWebpage/static/js/runtime-main.aa7471c3.js",
+    "runtime-main.js.map": "/DSGTBootcampWebpage/static/js/runtime-main.aa7471c3.js.map",
+    "static/js/2.50ab3fa1.chunk.js": "/DSGTBootcampWebpage/static/js/2.50ab3fa1.chunk.js",
+    "static/js/2.50ab3fa1.chunk.js.map": "/DSGTBootcampWebpage/static/js/2.50ab3fa1.chunk.js.map",
+    "static/js/3.b1509c4d.chunk.js": "/DSGTBootcampWebpage/static/js/3.b1509c4d.chunk.js",
+    "static/js/3.b1509c4d.chunk.js.map": "/DSGTBootcampWebpage/static/js/3.b1509c4d.chunk.js.map",
+    "index.html": "/DSGTBootcampWebpage/index.html",
+    "static/css/main.7b56a84c.chunk.css.map": "/DSGTBootcampWebpage/static/css/main.7b56a84c.chunk.css.map",
+    "static/js/2.50ab3fa1.chunk.js.LICENSE.txt": "/DSGTBootcampWebpage/static/js/2.50ab3fa1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/DSGTBootcampWebpage/static/media/dataviz.781b9dd0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa7471c3.js",
+    "static/js/2.50ab3fa1.chunk.js",
+    "static/css/main.7b56a84c.chunk.css",
+    "static/js/main.96453a25.chunk.js"
+  ]
+}
