@@ -23,6 +23,8 @@ class About extends React.Component {
                                   workshops and guide you through your projects. We work in iterative
                                   milestones and provide feedback on your work. DSGT Bootcamp is the ideal place to 
                                   jumpstart your data science career!
+
+                                  asdfasdfasd
                     </Slide>
                   </p>
                 </div>
