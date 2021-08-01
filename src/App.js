@@ -5,7 +5,7 @@ import About from './components/About';
 import Schedule from './components/Schedule';
 import Mentors from './components/Mentors';
 import Resource from './components/Resource';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Contact from './components/Contact';
 
@@ -14,7 +14,8 @@ function App() {
   return (
     <div className="App">
       
-      <Navigation/>            
+      <Navigation/>
+      <BrowserRouter>
           <Switch>
              <Route path='/contact' component={Contact}/>
              <Route path='/resources' component={Resource}/>
@@ -23,7 +24,8 @@ function App() {
              <Route path='/about' component={About}/>  
              <Route path='/' component={Home}/>            
           </Switch>
-      
+      </BrowserRouter>            
+          
       {/* <Home /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
