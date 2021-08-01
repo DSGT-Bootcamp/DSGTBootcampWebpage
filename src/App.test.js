@@ -9,7 +9,6 @@
 import { render } from '@testing-library/react';
 import Enzyme, { mount } from 'enzyme';
 import App from './App';
-import Quotes from './components/Quotes';
 
 // Add your adapter version below
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
