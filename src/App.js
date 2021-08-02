@@ -12,7 +12,7 @@ import ReactGA from 'react-ga';
 import RouteChangeTracker from './components/RouteChangeTracker';
 
 const TRACKING_ID = "281477872"; // YOUR_OWN_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+ReactGA.initialize(TRACKING_ID, { testMode: process.env.NODE_ENV === 'test' });
 
 ReactGA.exception({
   description: 'An error ocurred',
