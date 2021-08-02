@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 import ReactGA from 'react-ga';
 import RouteChangeTracker from './components/RouteChangeTracker';
 
-const TRACKING_ID = "281477872"; // YOUR_OWN_TRACKING_ID
+const TRACKING_ID = "UA-185881457-1"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID, { testMode: process.env.NODE_ENV === 'test' });
 
 ReactGA.exception({
