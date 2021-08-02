@@ -22,9 +22,10 @@ ReactGA.exception({
 function App() {
   return (
     <div className="App">
-      <RouteChangeTracker/>
+      
       <Navigation/>
       <BrowserRouter>
+      <RouteChangeTracker/>
           <Switch>
              <Route path='/contact' component={Contact}/>
              <Route path='/resources' component={Resource}/>
