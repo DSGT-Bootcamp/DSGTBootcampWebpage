@@ -17,6 +17,9 @@ jobs:
       - run:
           name: Run tests
           command: npm run test
+      - run:
+          name: Netlify deployment
+          command: curl -X POST -d {} ${hook}
 
 workflows:
   heroku_deploy:
