@@ -39,6 +39,26 @@
   }
 }
 
+Table {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EEEEEE;
+  border-collapse: collapse;
+  width: 100%;
+}
+Table td, Table th {
+  border: 1px solid #ddd;
+  padding: 3px 3px;
+}
+Table th {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1C6EA4;
+  color: white;
+}
+
 
 .bg-image {
   background-color: aliceblue;
