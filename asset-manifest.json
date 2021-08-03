@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/DSGTBootcampWebpage/static/css/main.554781af.chunk.css",
-    "main.js": "/DSGTBootcampWebpage/static/js/main.a6f4fe46.chunk.js",
-    "main.js.map": "/DSGTBootcampWebpage/static/js/main.a6f4fe46.chunk.js.map",
+    "main.js": "/DSGTBootcampWebpage/static/js/main.1346fcf2.chunk.js",
+    "main.js.map": "/DSGTBootcampWebpage/static/js/main.1346fcf2.chunk.js.map",
     "runtime-main.js": "/DSGTBootcampWebpage/static/js/runtime-main.db59ddcc.js",
     "runtime-main.js.map": "/DSGTBootcampWebpage/static/js/runtime-main.db59ddcc.js.map",
-    "static/js/2.681b3337.chunk.js": "/DSGTBootcampWebpage/static/js/2.681b3337.chunk.js",
-    "static/js/2.681b3337.chunk.js.map": "/DSGTBootcampWebpage/static/js/2.681b3337.chunk.js.map",
+    "static/js/2.875d4a6b.chunk.js": "/DSGTBootcampWebpage/static/js/2.875d4a6b.chunk.js",
+    "static/js/2.875d4a6b.chunk.js.map": "/DSGTBootcampWebpage/static/js/2.875d4a6b.chunk.js.map",
     "static/js/3.93aa9f0d.chunk.js": "/DSGTBootcampWebpage/static/js/3.93aa9f0d.chunk.js",
     "static/js/3.93aa9f0d.chunk.js.map": "/DSGTBootcampWebpage/static/js/3.93aa9f0d.chunk.js.map",
     "index.html": "/DSGTBootcampWebpage/index.html",
     "static/css/main.554781af.chunk.css.map": "/DSGTBootcampWebpage/static/css/main.554781af.chunk.css.map",
-    "static/js/2.681b3337.chunk.js.LICENSE.txt": "/DSGTBootcampWebpage/static/js/2.681b3337.chunk.js.LICENSE.txt",
+    "static/js/2.875d4a6b.chunk.js.LICENSE.txt": "/DSGTBootcampWebpage/static/js/2.875d4a6b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/DSGTBootcampWebpage/static/media/dataviz.781b9dd0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.db59ddcc.js",
-    "static/js/2.681b3337.chunk.js",
+    "static/js/2.875d4a6b.chunk.js",
     "static/css/main.554781af.chunk.css",
-    "static/js/main.a6f4fe46.chunk.js"
+    "static/js/main.1346fcf2.chunk.js"
   ]
 }
