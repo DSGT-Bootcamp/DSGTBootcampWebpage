@@ -1,6 +1,7 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import Roll from 'react-reveal/Roll';
+import ScheduleTable from './ScheduleTable';
 class Schedule extends React.Component {
     render() {
         return (
@@ -22,6 +23,7 @@ class Schedule extends React.Component {
                 </div>
               </div>
             </div>
+            <ScheduleTable />
           </div>
         );
     }
