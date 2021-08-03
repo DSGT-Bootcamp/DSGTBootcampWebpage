@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders dsgt bootcamp link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/DSGT Bootcamp/i);
+  const linkElement = screen.getByText(/asdfadsf/i);
   expect(linkElement).toBeInTheDocument();
 });
