@@ -1,3 +1,4 @@
+/*Google Analytics stuff. Don't worry about this file for adding stuff to the site!*/
 import React from 'react'
 import { withRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
