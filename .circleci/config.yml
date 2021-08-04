@@ -17,14 +17,17 @@ jobs:
       - run:
           name: Run tests
           command: npm run test
+      - run:
+          name: Netlify deployment
+          command: curl -X POST -d {} ${hook}
 
-workflows:
-  heroku_deploy:
-    jobs:
-      - build
-      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
-          requires:
-            - build
-          filters:
-            branches:
-              only: main
+# workflows:
+#   heroku_deploy:
+#     jobs:
+#       - build
+#       - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
+#           requires:
+#             - build
+#           filters:
+#             branches:
+#               only: main
