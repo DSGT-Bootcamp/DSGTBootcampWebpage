@@ -15,39 +15,39 @@ class ScheduleTable extends React.Component {
               </thead>
               <tbody>
                   <tr>
-                    <td>Paul</td>
-                    <td>Murana</td>
-                    <td>Power Automate Developer</td>
-                    <td>No</td>
-                    <td></td>
+                    <td>1</td>
+                    <td>TBD</td>
+                    <td>Introduction to Python + Intro to Bootcamp Project</td>
+                    <td>Stay Tuned!</td>
+                    <td>Stay Tuned!</td>
                   </tr>
                   <tr>
-                    <td>Micheal</td>
-                    <td>Knight</td>
-                    <td>Lone Ranger</td>
-                    <td>Yes</td>
-                    <td>1986-04-04</td>
+                    <td>2</td>
+                    <td>TBD</td>
+                    <td>Introduction to Pandas + Exploratory Data Analysis</td>
+                    <td>Stay Tuned!</td>
+                    <td>Stay Tuned!</td>
                   </tr>
                   <tr>
-                    <td>Peter</td>
-                    <td>Venkman</td>
-                    <td>Ghost Hunter</td>
-                    <td>No</td>
-                    <td></td>
+                    <td>3</td>
+                    <td>TBD</td>
+                    <td>Introductory Data Preprocessing</td>
+                    <td>Stay Tuned!</td>
+                    <td>Stay Tuned!</td>
                   </tr>
                   <tr>
-                    <td>John</td>
-                    <td>Rambo</td>
-                    <td>Mercenary</td>
-                    <td>No</td>
-                    <td></td>
+                    <td>4</td>
+                    <td>TBD</td>
+                    <td>Introduction to Machine Learning</td>
+                    <td>Stay Tuned</td>
+                    <td>Stay Tuned</td>
                   </tr>
                   <tr>
-                      <td> Bob</td>
-                      <td> McBob</td>
-                      <td>Fighter</td>
-                      <td> Yes</td>
-                      <td> </td>
+                      <td>5</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Stay Tuned!</td>
+                      <td>Stay Tuned!</td>
                   </tr>
               </tbody>
             </table>
