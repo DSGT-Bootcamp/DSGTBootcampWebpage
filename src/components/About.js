@@ -22,7 +22,7 @@ class About extends React.Component {
                                   significant questions by analyzing data. Our mentors will host 
                                   workshops and guide you through your projects. We work in iterative
                                   milestones and provide feedback on your work. DSGT Bootcamp is the ideal place to 
-                                  jumpstart your data science career! Mario and Luigi Bros Rule the world! World 1 World Bowser!
+                                  jumpstart your data science career!
                     </Slide>
                   </p>
                 </div>
