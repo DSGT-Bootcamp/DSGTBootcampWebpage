@@ -16,7 +16,7 @@ class Resource extends React.Component {
             <div class="col-lg-5">
               <Slide down><h1 class="font-weight-light">Resources</h1></Slide>
               <p>
-              <Slide down>Put helpful resources related to data science here.</Slide>
+              <Slide down>Put helpful resources related to data science here. This page should regularly be updated!</Slide>
               </p>
               
             </div>
