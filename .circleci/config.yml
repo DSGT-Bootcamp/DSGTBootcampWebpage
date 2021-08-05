@@ -17,17 +17,23 @@ jobs:
       - run:
           name: Run tests
           command: npm run test
+  netlify_deployment:
+    docker:
+      - image: circleci/node:10.16.3
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: Netlify deployment
           command: curl -X POST -d {} ${hook}
 
-# workflows:
-#   heroku_deploy:
-#     jobs:
-#       - build
-#       - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
-#           requires:
-#             - build
-#           filters:
-#             branches:
-#               only: main
+workflows:
+  heroku_deploy:
+    jobs:
+      - build
+      - netlify_deployment: # Use the pre-configured job, deploy-via-git
+          requires:
+            - build
+          filters:
+            branches:
+              only: main
