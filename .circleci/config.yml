@@ -19,7 +19,7 @@ jobs:
           command: npm run test
 
 workflows:
-  heroku_deploy:
+  netlify_deploy:
     jobs:
       - build
       - Netlify Deployment: # Use the pre-configured job, deploy-via-git
@@ -28,6 +28,6 @@ workflows:
           filters:
             branches:
               only: main
-          - run:
+          run:
               name: Netlify deployment
               command: curl -X POST -d {} ${hook}
