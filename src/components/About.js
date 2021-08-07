@@ -25,6 +25,7 @@ class About extends React.Component {
                                   jumpstart your data science career!
                     </Slide>
                   </p>
+                  <p>Hello my name is Vindhya Pasala and I am a new content creator!</p>
                 </div>
               </div>
               <img
