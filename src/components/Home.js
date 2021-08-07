@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
+import Announcement from 'react-announcement';
 class Home extends React.Component {
   render() {
     return (
@@ -21,6 +22,11 @@ class Home extends React.Component {
               </p>
             </div>
           </div>
+          <Announcement
+          title="Here is your component"
+          subtitle="The best announcement component for React is finally here. Install it in all your projects."
+          link="https://github.com/kristofferandreasen/react-announcement"
+          />
         </div>
       </div>
     );
