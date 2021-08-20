@@ -17,7 +17,7 @@ class Contact extends React.Component {
             <div class="col-lg-5">
               <Fade left><h1 class="font-weight-light">Contact Us</h1></Fade>
               <p>
-              <Fade right><a href = "mailto: hello@datasciencegt.org"><font size="+3">Email DSGT</font></a></Fade>
+              <Fade right><a href = "mailto: dsgtbootcamp@gmail.com"><font size="+3">Email DSGT Bootcamp!</font></a></Fade>
               
               </p>
               
