@@ -70,3 +70,24 @@ body {
   background-image: url("/src/images/dataviz.png");
   color: blue;
 }
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1600px;
+  }
+}
+header {
+  font-size: 120px;
+  font-family: "avenir";
+  color: black;
+  text-align: center;
+  padding-top: 20%;
+  width: 100%
+}
+homePageSubtitle {
+  font-size: 35px;
+  font-family: "avenir";
+  color: black;
+  text-align: center;
+  width: 50%;
+
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import ScheduleTable from "./ScheduleTable";
 
 class ResourceTable extends React.Component {
     render() {
@@ -7,42 +6,30 @@ class ResourceTable extends React.Component {
             <table>
                 <thead>
                 <tr>
-                    <th>Resource #</th>
-                    <th>Topic</th>
+                    <th>Resource Topic/Link</th>
                     <th>Prerequisite Knowledge</th>
-                    <th>Link to Resource</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>TBD</td>
-                    <td>Introduction to Python + Intro to Bootcamp Project</td>
-                    <td>Stay Tuned!</td>
+                    <td> <a href = "https://mml-book.github.io/book/mml-book.pdf">Mathematics for Machine Learning</a></td>
+                    <td>None</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>TBD</td>
-                    <td>Introduction to Pandas + Exploratory Data Analysis</td>
-                    <td>Stay Tuned!</td>
+                    <td><a href="https://www.youtube.com/watch?v=LHBE6Q9XlzI">Python for Data Science (Beginner)</a></td>
+                    <td>None</td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>TBD</td>
-                    <td>Introductory Data Preprocessing</td>
-                    <td>Stay Tuned!</td>
+                    <td><a href = "https://www.youtube.com/watch?v=HGOBQPFzWKo&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&index=6">Advanced Python</a></td>
+                    <td>Beginner knowledge of Python</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>TBD</td>
-                    <td>Introduction to Machine Learning</td>
-                    <td>Stay Tuned</td>
+                    <td><a href="https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916">Fundamentals of Machine Learning</a></td>
+                    <td>None</td>
                 </tr>
                 <tr>
-                    <td>5</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>Stay Tuned!</td>
+                    <td><a href="https://neuralnetworksanddeeplearning.com/index.html">Neural Networks and Deep Learning</a></td>
+                    <td>Familiarity with Linear Algebra, Calculus, and Python</td>
                 </tr>
                 </tbody>
             </table>
