@@ -33,7 +33,7 @@ class Home extends React.Component {
         <div class="container">
               <Bounce left><header>DS @ GT BOOTCAMP</header></Bounce>
               <homePageSubtitle>
-                <Fade right>Learn Data Science Principles tailored towards real-world applications</Fade>
+                <Fade right>Learn Data Science Principles Tailored Towards Real-World Applications</Fade>
               </homePageSubtitle>
           <ParticlesBg type="cobweb" num = {1500} bg={true} color = "#008080" />
           <Announcement
