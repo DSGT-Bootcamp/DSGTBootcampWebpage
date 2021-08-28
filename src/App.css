@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
-  color: blue;
+  text-align: left;
+  color: white;
   font-weight: 500;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2c54a3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -62,11 +62,17 @@ Table th {
 
 .bg-image {
   background-color: aliceblue;
-  background-image: url("/src/images/dataviz.png");
+  background-image: url("/src/images/homepage_background.jpg");
   
 }
 body {
   background-color: aliceblue;
-  background-image: url("/src/images/dataviz.png");
+  background-image: url("/src/images/homepage_background.jpg");
+  background-size: 100%;
   color: blue;
+  background-position: top center;
+}
+
+p {
+  margin-top: 50px;
 }
