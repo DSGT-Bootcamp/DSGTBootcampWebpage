@@ -2,12 +2,10 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import Button from 'react-bootstrap/Button';
-import Announcement from 'react-announcement';
 //import {Dropdown} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 
@@ -29,14 +27,16 @@ class Home extends React.Component {
               <p></p>
               <Bounce left><h1 class="font-weight-light">DATA SCIENCE</h1></Bounce>
               <Bounce left><h1 class="font-weight-light">@ georgia tech</h1></Bounce>
-                <Fade right>Welcome to DSGT! Our club is a diverse community of data science students 
+                <Fade right>Welcome to DSGT Bootcamp! Our club is a diverse community of data science students 
                 who are passionate about sharing our vision: data science with a focus on the community. 
                 We fully believe that we can make impactful strides in improving our society through 
-                real-world projects and workshops here at DSGT!</Fade>
+                real-world projects and workshops here at DSGT!
+                </Fade>
+                <p>Bootcamp provides an amazing opportunity to learn data science 
+                skills using Python, NumPy, Pandas, and other machine learning techniques to create a project that will could potentially 
+                solve a real-world problem. Click on the button below to apply today and gain significant insight through this experience!</p>
                 <p></p>
                 <Button href="https://linktr.ee/dsgt" variant="outline-light" size="lg">Apply Today!</Button>{' '}
-                <p></p>
-                <p></p>
                 <p></p>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                   <Row>
@@ -94,11 +94,6 @@ class Home extends React.Component {
                 </Tab.Container>
             </div>
           </div>
-          <Announcement
-          title="Welcome!"
-          subtitle="This website is a great resource to find all of the answers for your data science questions. Please contact the team if you have any more questions. Thanks!"
-          link="https://github.com/kristofferandreasen/react-announcement"
-          />
         </div>
       </div>
     );
