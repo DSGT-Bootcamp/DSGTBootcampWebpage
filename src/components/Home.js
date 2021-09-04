@@ -17,11 +17,6 @@ class Home extends React.Component {
         <div class="container">
           <div class="row align-items-center my-5">
             <div class="col-lg-7">
-              <img
-                //class="img-fluid rounded mb-4 mb-lg-0"
-                //src="http://placehold.it/900x400"
-                //alt=""
-              />
             </div>
             <div class="col-lg-7">
               <p></p>
@@ -36,7 +31,7 @@ class Home extends React.Component {
                 skills using Python, NumPy, Pandas, and other machine learning techniques to create a project that will could potentially 
                 solve a real-world problem. Click on the button below to apply today and gain significant insight through this experience!</p>
                 <p></p>
-                <Button href="https://linktr.ee/dsgt" variant="outline-light" size="lg">Apply Today!</Button>{' '}
+                <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfv3_12vdyWsy_Lz9u3DCarO1Mw_HxIsF3hzm-92KOVU_otwQ/viewform" variant="outline-light" size="lg">Apply Today!</Button>{' '}
                 <p></p>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                   <Row>
