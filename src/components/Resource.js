@@ -1,5 +1,5 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
+import ResourceTable from "./ResourceTable";
 class Resource extends React.Component {
   render() {
     return (
@@ -8,13 +8,7 @@ class Resource extends React.Component {
           <div class="row align-items-center my-5">
             <div class="col-lg-7">
             </div>
-            <div class="col-lg-5">
-              <Slide down><h1 class="font-weight-light">Resources</h1></Slide>
-              <p>
-              <Slide down>Put helpful resources related to data science here. This page should regularly be updated!</Slide>
-              </p>
-              
-            </div>
+            <ResourceTable/>
           </div>
         </div>
       </div>
