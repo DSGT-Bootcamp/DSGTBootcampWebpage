@@ -1,6 +1,4 @@
 import React from 'react';
-import Roll from "react-reveal/Roll";
-import Zoom from "react-reveal/Zoom";
 import ResourceTable from "./ResourceTable";
 class Resource extends React.Component {
   render() {
@@ -11,11 +9,10 @@ class Resource extends React.Component {
             <div class="col-lg-7">
             </div>
             <ResourceTable/>
-        </div>
+          </div>
         </div>
       </div>
     );
   }
 }
 export default Resource;
-
