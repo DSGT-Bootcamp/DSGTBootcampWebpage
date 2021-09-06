@@ -15,43 +15,42 @@ class ScheduleTable extends React.Component {
               </thead>
               <tbody>
                   <tr>
-                    <td>1</td>
-                    <td>TBD</td>
-                    <td>Introduction to Python + Intro to Bootcamp Project</td>
-                    <td>Stay Tuned!</td>
-                    <td>Stay Tuned!</td>
+                    <td><text style={{ color: 'red' }}>1</text></td>
+                    <td><text style={{ color: 'red' }}>September 13th 2021 6pm - 7pm EDT</text></td>
+                    <td><text style={{ color: 'red' }}>Introduction to Python + Intro to Bootcamp Project</text></td>
+                    <td><text style={{ color: 'red' }}>Stay Tuned!</text></td>
+                    <td><text style={{ color: 'red' }}>September 26th, 2021 11:59pm EDT</text></td>
                   </tr>
                   <tr>
-                    <td>2</td>
-                    <td>TBD</td>
-                    <td>Introduction to Pandas + Exploratory Data Analysis</td>
-                    <td>Stay Tuned!</td>
-                    <td>Stay Tuned!</td>
+                    <td><text style={{ color: 'black' }}>2</text></td>
+                      <td><text style={{ color: 'black' }}>September 27th 2021 6pm - 7pm EDT</text></td>
+                      <td><text style={{ color: 'black' }}>Introduction to Pandas + Exploratory Data Analysis</text></td>
+                      <td><text style={{ color: 'black' }}>Stay Tuned!</text></td>
+                      <td><text style={{ color: 'black' }}>October 10th, 2021 11:59pm EDT</text></td>
                   </tr>
                   <tr>
-                    <td>3</td>
-                    <td>TBD</td>
-                    <td>Introductory Data Preprocessing</td>
-                    <td>Stay Tuned!</td>
-                    <td>Stay Tuned!</td>
+                    <td><text style={{ color: 'black' }}>3</text></td>
+                    <td><text style={{ color: 'black' }}>October 11th, 2021 6pm - 7pm EDT</text></td>
+                    <td><text style={{ color: 'black' }}>Introductory Data Preprocessing</text></td>
+                      <td><text style={{color: 'black' }}>Stay Tuned!</text></td>
+                    <td><text style={{ color: 'black' }}>October 24th, 2021 11:59pm EDT</text></td>
                   </tr>
                   <tr>
-                    <td>4</td>
-                    <td>TBD</td>
-                    <td>Introduction to Machine Learning</td>
-                    <td>Stay Tuned</td>
-                    <td>Stay Tuned</td>
+                      <td><text style={{ color: 'black' }}>4</text></td>
+                      <td><text style={{ color: 'black' }}>October 25th, 2021 6pm - 7pm EDT</text></td>
+                      <td><text style={{ color: 'black' }}>Introduction to Machine Learning</text></td>
+                      <td><text style={{ color: 'black' }}>Stay Tuned!</text></td>
+                      <td><text style={{ color: 'black' }}>November 7th, 2021 11:59pm EDT</text></td>
                   </tr>
                   <tr>
-                      <td>5</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
-                      <td>Stay Tuned!</td>
-                      <td>Stay Tuned!</td>
+                      <td><text style={{ color: 'black' }}>5</text></td>
+                      <td><text style={{ color: 'black' }}>November 8th, 2021 6pm - 7pm EDT</text></td>
+                      <td><text style={{ color: 'black' }}>TBD</text></td>
+                      <td><text style={{ color: 'black' }}>Stay Tuned!</text></td>
+                      <td><text style={{ color: 'black' }}>November 21st, 2021 11:59pm EDT</text></td>
                   </tr>
               </tbody>
             </table>
-
         );
     }
 }
