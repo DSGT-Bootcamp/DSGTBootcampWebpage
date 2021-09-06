@@ -1,5 +1,5 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
+ import Fade from 'react-reveal/Fade';
+import React from "react";
 import Bounce from 'react-reveal/Bounce';
 import Button from 'react-bootstrap/Button';
 //import {Dropdown} from 'react-bootstrap';
@@ -94,6 +94,4 @@ class Home extends React.Component {
     );
   }
 }
-
-
 export default Home;
