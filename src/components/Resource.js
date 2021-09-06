@@ -11,6 +11,7 @@ class Resource extends React.Component {
             <ResourceTable/>
           </div>
         </div>
+      </div>
     );
   }
 }
