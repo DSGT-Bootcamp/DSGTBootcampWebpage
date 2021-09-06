@@ -22,5 +22,4 @@ class Mentors extends React.Component {
         );
     }
 }
-
 export default Mentors;
