@@ -32,6 +32,7 @@ class Home extends React.Component {
                 solve a real-world problem. Click on the button below to apply today and gain significant insight through this experience!</p>
                 <p></p>
                 <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfv3_12vdyWsy_Lz9u3DCarO1Mw_HxIsF3hzm-92KOVU_otwQ/viewform" variant="outline-light" size="lg">Apply Today!</Button>{' '}
+                <Button href="https://forms.gle/C9crXxNJ5S8KEY3FA" variant="outline-light" size="lg">Register your Bootcamp Project Team!</Button>{' '}
                 <p></p>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                   <Row>
