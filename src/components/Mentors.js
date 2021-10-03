@@ -10,10 +10,10 @@ class Mentors extends React.Component {
                 <div class="col-lg-7">
                 </div>
                 <div class="col-lg-5">
-                  <Flip right><h1 class="font-weight-light">Meet the Mentors</h1></Flip>
+                  <h1 class="font-weight-light">Meet the Mentors</h1>
                   <p>
-                    <LightSpeed left>DSGT Bootcamp Mentors (ie: Content Team members)
-                    Each content team member should insert a picture of themselves along with a brief description of their background, hobbies, interests, etc</LightSpeed>
+                    DSGT Bootcamp Mentors (ie: Content Team members)
+                    Each content team member should insert a picture of themselves along with a brief description of their background, hobbies, interests, etc
                   </p>
                 </div>
               </div>
