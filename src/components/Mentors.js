@@ -1,6 +1,4 @@
 import React from 'react';
-import Flip from 'react-reveal/Flip';
-import LightSpeed from 'react-reveal/LightSpeed';
 class Mentors extends React.Component {
     render() {
         return (
