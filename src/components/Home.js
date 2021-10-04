@@ -1,6 +1,4 @@
- import Fade from 'react-reveal/Fade';
 import React from "react";
-import Bounce from 'react-reveal/Bounce';
 import Button from 'react-bootstrap/Button';
 //import {Dropdown} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
@@ -20,13 +18,12 @@ class Home extends React.Component {
             </div>
             <div class="col-lg-7">
               <p></p>
-              <Bounce left><h1 class="font-weight-light">DATA SCIENCE</h1></Bounce>
-              <Bounce left><h1 class="font-weight-light">@ georgia tech</h1></Bounce>
-                <Fade right>Welcome to DSGT Bootcamp! Our club is a diverse community of data science students 
+              <h1 class="font-weight-light">DATA SCIENCE</h1>
+              <h1 class="font-weight-light">at Georgia Tech</h1>
+                <p>Welcome to DSGT Bootcamp! Our club is a diverse community of data science students 
                 who are passionate about sharing our vision: data science with a focus on the community. 
                 We fully believe that we can make impactful strides in improving our society through 
-                real-world projects and workshops here at DSGT!
-                </Fade>
+                real-world projects and workshops here at DSGT!</p>
                 <p>Bootcamp provides an amazing opportunity to learn data science 
                 skills using Python, NumPy, Pandas, and other machine learning techniques to create a project that will could potentially 
                 solve a real-world problem. Click on the button below to apply today and gain significant insight through this experience!</p>
