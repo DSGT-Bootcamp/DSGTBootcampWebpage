@@ -2,16 +2,15 @@ import React from "react";
 import { Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-
-Vindhya = './images/vindhya.png';
-Neil = './images/neil.png';
-Harris = './images/harris.png';
-Karthik = './images/karthik.png';
-Shasha = './images/shasha.png';
-Nathan = './images/nathan.png';
-Joseph = './images/joseph.png';
-Long = './images/long.png';
-Nick = './images/nicholas.png';
+import Vindhya from '../images/vindhya.png';
+import Neil from '../images/neil.png';
+import Harris from '../images/harris.png';
+import Karthik from '../images/karthik.png';
+import Shasha from '../images/shasha.png';
+import Nathan from '../images/nathan.png';
+import Joseph from '../images/joseph.png';
+import Long from '../images/long.png';
+import Nick from '../images/nicholas.png';
 
 var divPadding = {
   padding: "3em 0 3em 0",
@@ -26,7 +25,7 @@ var lightBlue = {
   backgroundColor: "#F1F9FF",
 }
 
-export default class Events extends React.Component {
+class PhotoGallery extends React.Component {
   render() {
     return(
       <div style={divPadding}>

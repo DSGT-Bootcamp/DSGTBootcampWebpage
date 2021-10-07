@@ -1,4 +1,5 @@
 import React from 'react';
+import PhotoGallery from "./PhotoGallery";
 class Mentors extends React.Component {
     render() {
         return (
@@ -9,13 +10,10 @@ class Mentors extends React.Component {
                 </div>
                 <div class="col-lg-5">
                   <h1 class="font-weight-light">Meet the Mentors</h1>
-                  <p>
-                    DSGT Bootcamp Mentors (ie: Content Team members)
-                    Each content team member should insert a picture of themselves along with a brief description of their background, hobbies, interests, etc
-                  </p>
                 </div>
               </div>
             </div>
+          <PhotoGallery/>
           </div>
         );
     }
