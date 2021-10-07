@@ -13,23 +13,23 @@ class ResourceTable extends React.Component {
                 <tbody>
                 <tr>
                     <td> <a href = "https://mml-book.github.io/book/mml-book.pdf">Mathematics for Machine Learning</a></td>
-                    <td>None</td>
+                    <td><text style={{ color: 'red' }}>None</text></td>
                 </tr>
                 <tr>
                     <td><a href="https://www.youtube.com/watch?v=LHBE6Q9XlzI">Python for Data Science (Beginner)</a></td>
-                    <td>None</td>
+                    <td><text style={{ color: 'red' }}>None</text></td>
                 </tr>
                 <tr>
                     <td><a href = "https://www.youtube.com/watch?v=HGOBQPFzWKo&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&index=6">Advanced Python</a></td>
-                    <td>Beginner knowledge of Python</td>
+                    <td><text style={{ color: 'red' }}>Beginner knowledge of Python</text></td>
                 </tr>
                 <tr>
                     <td><a href="https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916">Fundamentals of Machine Learning</a></td>
-                    <td>None</td>
+                    <td><text style={{ color: 'red' }}>None</text></td>
                 </tr>
                 <tr>
                     <td><a href="https://neuralnetworksanddeeplearning.com/index.html">Neural Networks and Deep Learning</a></td>
-                    <td>Familiarity with Linear Algebra, Calculus, and Python</td>
+                    <td><text style={{ color: 'red' }}>Familiarity with Linear Algebra, Calculus, and Python</text></td>
                 </tr>
                 </tbody>
             </table>

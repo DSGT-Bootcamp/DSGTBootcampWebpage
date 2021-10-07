@@ -1,5 +1,4 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
 import { SocialIcon } from 'react-social-icons';
 class Contact extends React.Component {
   render() {
@@ -10,15 +9,15 @@ class Contact extends React.Component {
             <div class="col-lg-7">
             </div>
             <div class="col-lg-5">
-              <Fade left><h1 class="font-weight-light">Contact Us</h1></Fade>
+              <h1 class="font-weight-light">Contact Us</h1>
               <p>
-              <Fade right><a href = "mailto: dsgtbootcamp@gmail.com"><font size="+3">Email DSGT Bootcamp!</font></a></Fade>
+              <a href = "mailto: dsgtbootcamp@gmail.com"><font size="+3">Email DSGT Bootcamp!</font></a>
               
               </p>
               
             </div>
-            <Fade right><SocialIcon url="https://www.facebook.com/datasciencegt/" style={{ height: 100, width: 100 }}/></Fade>
-            <Fade right><SocialIcon url="https://www.linkedin.com/company/dsgt/mycompany/" style={{ height: 100, width: 100 }} /></Fade>
+            <SocialIcon url="https://www.facebook.com/datasciencegt/" style={{ height: 100, width: 100 }}/>
+            <SocialIcon url="https://www.linkedin.com/company/dsgt/mycompany/" style={{ height: 100, width: 100 }} />
           </div>
         </div>
       </div>
