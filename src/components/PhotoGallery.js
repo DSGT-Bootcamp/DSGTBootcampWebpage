@@ -25,6 +25,10 @@ var lightBlue = {
   backgroundColor: "#F1F9FF",
 }
 
+var navy = {
+  backgroundColor: "#000080",
+}
+
 class PhotoGallery extends React.Component {
   render() {
     return(
@@ -32,9 +36,9 @@ class PhotoGallery extends React.Component {
       <Container>
       <div style={divPaddingInner}>
       <CardDeck className="text-center">
-        <Card style={noBorder}> {/*Vindhya*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Vindhya*/}
         <Card.Img src={Vindhya}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Vindhya Pasala</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -43,9 +47,9 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder}> {/*Neil*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Neil*/}
         <Card.Img src={Neil}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Neil Patel</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -54,9 +58,9 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder}> {/*Harris*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Harris*/}
         <Card.Img src={Harris}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Harris Barton</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -65,9 +69,9 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder}> {/*Karthik*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Karthik*/}
         <Card.Img src={Karthik}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Karthik Subramanian</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -78,9 +82,9 @@ class PhotoGallery extends React.Component {
         </Card>
       </CardDeck>
       <CardDeck>
-        <Card style={noBorder}> {/*Shasha*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Shasha*/}
         <Card.Img src={Shasha}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Shasha Liao</h4></Card.Title>
           <Card.Text>
             Major: Mathematics and Computational Science and Engineering
@@ -89,9 +93,9 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder}> {/*Nathan*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Nathan*/}
         <Card.Img src={Nathan}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Nathan Zhong</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -100,9 +104,9 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder}> {/*Joseph*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Joseph*/}
         <Card.Img src={Joseph}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Joseph Cannady</h4></Card.Title>
           <Card.Text>
             Major: Electrical Engineering
@@ -111,9 +115,9 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder}> {/*Long*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Long*/}
         <Card.Img src={Long}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Long Lam</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -122,9 +126,9 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder}> {/*Nick*/}
+        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Nick*/}
         <Card.Img src={Nick}/>
-          <Card.Body style={lightBlue}>
+          <Card.Body>
           <Card.Title className="text-center"><h4>Nicholas Zhang</h4></Card.Title>
           <Card.Text>
             Major: Mechanical Engineering
