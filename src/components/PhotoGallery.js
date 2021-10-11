@@ -20,13 +20,7 @@ var divPaddingInner = {
 }
 var noBorder = {
   border: "none",
-}
-var lightBlue = {
-  backgroundColor: "#F1F9FF",
-}
-
-var navy = {
-  backgroundColor: "#000080",
+  color: "white",
 }
 
 class PhotoGallery extends React.Component {
@@ -35,8 +29,8 @@ class PhotoGallery extends React.Component {
       <div style={divPadding}>
       <Container>
       <div style={divPaddingInner}>
-      <CardDeck className="text-center">
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Vindhya*/}
+      <CardDeck>
+      <Card style={noBorder} bg="dark"> {/*Vindhya*/}
         <Card.Img src={Vindhya}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Vindhya Pasala</h4></Card.Title>
@@ -47,7 +41,7 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Neil*/}
+        <Card style={noBorder} bg="dark"> {/*Neil*/}
         <Card.Img src={Neil}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Neil Patel</h4></Card.Title>
@@ -58,7 +52,7 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Harris*/}
+        <Card style={noBorder} bg="dark"> {/*Harris*/}
         <Card.Img src={Harris}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Harris Barton</h4></Card.Title>
@@ -69,7 +63,7 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Karthik*/}
+        <Card style={noBorder} bg="dark"> {/*Karthik*/}
         <Card.Img src={Karthik}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Karthik Subramanian</h4></Card.Title>
@@ -82,7 +76,7 @@ class PhotoGallery extends React.Component {
         </Card>
       </CardDeck>
       <CardDeck>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Shasha*/}
+      <Card style={noBorder} bg="dark"> {/*Shasha*/}
         <Card.Img src={Shasha}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Shasha Liao</h4></Card.Title>
@@ -93,7 +87,7 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Nathan*/}
+        <Card style={noBorder} bg="dark"> {/*Nathan*/}
         <Card.Img src={Nathan}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Nathan Zhong</h4></Card.Title>
@@ -104,7 +98,7 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Joseph*/}
+        <Card style={noBorder} bg="dark"> {/*Joseph*/}
         <Card.Img src={Joseph}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Joseph Cannady</h4></Card.Title>
@@ -115,7 +109,7 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Long*/}
+        <Card style={noBorder} bg="dark"> {/*Long*/}
         <Card.Img src={Long}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Long Lam</h4></Card.Title>
@@ -126,7 +120,7 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg={lightBlue} text={navy}> {/*Nick*/}
+        <Card style={noBorder} bg="dark"> {/*Nick*/}
         <Card.Img src={Nick}/>
           <Card.Body>
           <Card.Title className="text-center"><h4>Nicholas Zhang</h4></Card.Title>
