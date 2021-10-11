@@ -36,7 +36,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Vindhya Pasala</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
+            <br/>
             Year: 2nd
+            <br/>
             Fun Facts: I am a henna artist and a huge foodie who loves to try new ethnic foods. My favorite TV show is Psych and I love to play tennis in my free time.
           </Card.Text>
           </Card.Body>
@@ -47,7 +49,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Neil Patel</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
+            <br/>
             Year: 3rd
+            <br/>
             Fun Facts: I am a big Apple fan, I exclusively use their products (Apple Music{'>'}{'>'}{'>'}Spotify)
           </Card.Text>
           </Card.Body>
@@ -58,7 +62,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Harris Barton</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
+            <br/>
             Year: 3rd
+            <br/>
             Fun Facts: I enjoy playing chess, and am an active Brazilian Jiu Jitsu and Muay Thai practicioner. 
           </Card.Text>
           </Card.Body>
@@ -69,7 +75,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Karthik Subramanian</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
+            <br/>
             Year: 3rd
+            <br/>
             Fun Facts: I enjoy cooking, riding bikes, hiking, and learning about new concepts.
           </Card.Text>
           </Card.Body>
@@ -82,7 +90,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Shasha Liao</h4></Card.Title>
           <Card.Text>
             Major: Mathematics and Computational Science and Engineering
+            <br/>
             Year: 4th
+            <br/>
             Fun Facts: I believe that UFOs exist and they might come from beyond Earth!
           </Card.Text>
           </Card.Body>
@@ -93,7 +103,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Nathan Zhong</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
+            <br/>
             Year: 1st
+            <br/>
             Fun Facts: I have a mini golden poodle puppy called Coco
           </Card.Text>
           </Card.Body>
@@ -104,7 +116,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Joseph Cannady</h4></Card.Title>
           <Card.Text>
             Major: Electrical Engineering
+            <br/>
             Year: 2nd
+            <br/>
             Fun Facts: I have a crippling addiction to Dr. Pepper
           </Card.Text>
           </Card.Body>
@@ -115,7 +129,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Long Lam</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
+            <br/>
             Year: 1st
+            <br/>
             Fun Facts: I have never pulled an all-nighter
           </Card.Text>
           </Card.Body>
@@ -126,7 +142,9 @@ class PhotoGallery extends React.Component {
           <Card.Title className="text-center"><h4>Nicholas Zhang</h4></Card.Title>
           <Card.Text>
             Major: Mechanical Engineering
+            <br/>
             Year: 1st
+            <br/>
             Fun Facts: I play piano and my high school was across the street from the airport.
           </Card.Text>
           </Card.Body>
