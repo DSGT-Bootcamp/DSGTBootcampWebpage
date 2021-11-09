@@ -9,9 +9,9 @@ class Schedule extends React.Component {
                 <div class="col-lg-7">
                 </div>
                 <div class="col-lg-5">
-                  <h1 class="font-weight-light">Schedule</h1>
-                  <p>
-                    Schedule for DSGT Bootcamp workshops. Put link to Google Colab notebook here. Schedule should be a table!
+                  <h1 class="font-weight-bold">Schedule</h1>
+                  <p class="font-weight-light">
+                    Schedule for DSGT Bootcamp workshops.
                   </p>
                 </div>
               </div>

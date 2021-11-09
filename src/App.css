@@ -67,7 +67,7 @@ Table th {
 
 body {
   background-color: rgb(25, 72, 116);
-  background-image: url("/src/images/old_homepage_background.jpg");
+  /* background-image: url("/src/images/old_homepage_background.jpg"); */
   color: blue;
   background-position: top center;
   background:

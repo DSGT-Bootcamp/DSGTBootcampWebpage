@@ -3,13 +3,13 @@ import PhotoGallery from "./PhotoGallery";
 class Mentors extends React.Component {
     render() {
         return (
-          <div className="home">
+          <div className="home" style={{alignContent: "center"}}>
             <div class="container">
               <div class="row align-items-center my-5">
                 <div class="col-lg-7">
                 </div>
                 <div class="col-lg-5">
-                  <h1 class="font-weight-light" style={{textAlign: "center"}}>Meet the Mentors</h1>
+                  <h1 class="font-weight-light" class="font-weight-bold">Meet the Mentors</h1>
                 </div>
               </div>
             </div>

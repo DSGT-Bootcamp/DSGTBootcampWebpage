@@ -29,7 +29,7 @@ class Home extends React.Component {
             </div>
             <div class="col-lg-7">
               <p></p>
-              <div style={{paddingTop: "450px"}}>
+              <div style={{paddingTop: "450px"}} class="font-weight-light">
                 <p>Welcome to DSGT Bootcamp! Our club is a diverse community of data science students 
                 who are passionate about sharing our vision: data science with a focus on the community. 
                 We fully believe that we can make impactful strides in improving our society through 

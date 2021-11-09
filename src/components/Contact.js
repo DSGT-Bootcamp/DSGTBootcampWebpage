@@ -9,7 +9,7 @@ class Contact extends React.Component {
             <div class="col-lg-7">
             </div>
             <div class="col-lg-5">
-              <h1 class="font-weight-light">Contact Us</h1>
+              <h1 class="font-weight-bold">Contact Us</h1>
               <p>
               <a href = "mailto: dsgtbootcamp@gmail.com"><font size="+3">Email DSGT Bootcamp!</font></a>
               

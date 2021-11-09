@@ -4,19 +4,18 @@ class About extends React.Component {
         return (
           <div className="home">
             <div class="container">
-              <div class="row align-items-center my-5">
+              <div>
                 <div class="col-lg-7">
                 </div>
                 <div class="col-lg-5">
-                <h1 class="font-weight-light" style={{textAlign: "center"}}>About DSGT Bootcamp</h1>
-                  <p>
+                <h1 class="font-weight-bold" style={{textAlign: "center"}}  style={{alignContent: "center"}}>About DSGT Bootcamp</h1>
+                  <p  style={{alignContent: "center"}} class="font-weight-light" >
                     DSGT bootcamp is an immersive 11-week experience where you’ll
                     learn a variety of data science skills and work in teams to answer 
                     significant questions by analyzing data. Our mentors will host 
                     workshops and guide you through your projects. We work in iterative
                     milestones and provide feedback on your work. DSGT Bootcamp is the ideal place to 
                     jumpstart your data science career!
-            
                   </p>
                 </div>
               </div>
