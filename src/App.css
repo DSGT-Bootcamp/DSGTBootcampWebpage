@@ -60,17 +60,18 @@ Table th {
 }
 
 
-.bg-image {
-  background-color: aliceblue;
-  background-image: url("/src/images/homepage_background.jpg");
-  
-}
+/* .bg-image { */
+  /* background-color: rgb(18, 77, 129); */
+  /* background-image: url("/src/images/dataviz.png"); */
+/* } */
+
 body {
-  background-color: aliceblue;
-  background-image: url("/src/images/homepage_background.jpg");
-  background-size: 100%;
+  background-color: rgb(25, 72, 116);
+  background-image: url("/src/images/old_homepage_background.jpg");
   color: blue;
   background-position: top center;
+  background:
+    "linear-gradient(to bottom, rgba(0,22,41,1), rgba(0,22,41,0.7), rgba(0,99,185,0.7), rgba(0,99,185,0.7))",
 }
 p {
   margin-top: 50px;

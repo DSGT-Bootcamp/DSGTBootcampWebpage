@@ -9,7 +9,7 @@ class Mentors extends React.Component {
                 <div class="col-lg-7">
                 </div>
                 <div class="col-lg-5">
-                  <h1 class="font-weight-light">Meet the Mentors</h1>
+                  <h1 class="font-weight-light" style={{textAlign: "center"}}>Meet the Mentors</h1>
                 </div>
               </div>
             </div>

@@ -8,7 +8,7 @@ class About extends React.Component {
                 <div class="col-lg-7">
                 </div>
                 <div class="col-lg-5">
-                <h1 class="font-weight-light">About DSGT Bootcamp</h1>
+                <h1 class="font-weight-light" style={{textAlign: "center"}}>About DSGT Bootcamp</h1>
                   <p>
                     DSGT bootcamp is an immersive 11-week experience where you’ll
                     learn a variety of data science skills and work in teams to answer 
@@ -20,13 +20,13 @@ class About extends React.Component {
                   </p>
                 </div>
               </div>
-              <img
+              {/* <img
                 class="img-fluid rounded mb-4 mb-lg-0"
                 src="https://www.crn.com/resources/025e-0fb69052958d-257fbfe990c4-1000/ai-artificial-intelligence-mind.jpg"
                 height="450"
                 width="400"
                 alt=""
-              />
+              /> */}
             </div>
           </div>
         );
