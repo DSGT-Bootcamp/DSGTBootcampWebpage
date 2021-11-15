@@ -45,7 +45,7 @@ class ScheduleTable extends React.Component {
                       <td><text style={{ color: 'red' }}>Introduction to Machine Learning</text></td>
                       <td><a href = "https://colab.research.google.com/drive/1ZXkzOyoBcvoTabYZfzEdo7RWQuJR-MiU?usp=sharing"><text style={{ color: 'red' }}>Colab Notebook</text></a><a href = "https://drive.google.com/file/d/19ofvCh_j1N4H5DJKgm4073jSfo0jyQif/view?usp=sharing"><text style={{ color: 'red' }}>, Recording</text></a>
                       <a href = "https://colab.research.google.com/drive/14--yWTh9xhi9C4nbBYugiPCzp5rlsN0N?usp=sharing"><text style={{ color: 'red' }}>, Drill</text></a></td>
-                      <td><text style={{ color: 'black' }}>November 14th, 2021 11:59pm EDT</text></td>
+                      <td><text style={{ color: 'red' }}>November 14th, 2021 11:59pm EDT</text></td>
                   </tr>
                   <tr>
                       <td><text style={{ color: 'black' }}>5</text></td>
