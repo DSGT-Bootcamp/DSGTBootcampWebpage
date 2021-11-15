@@ -1,7 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import jpg44 from '../../SlideshowPhotos/jpg_44.jpg';
 import disease from '../../SlideshowPhotos/disease.png';
 
 import nn from '../../SlideshowPhotos/nn.png';
@@ -15,23 +14,23 @@ const AboutSlideshow = () => {
       <div style={{marginBottom: "4000px", marginTop: "50px"}}>
         <Slide easing="ease">
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={disease}/>
+            <img src={disease} alt="disease occurrence across cities" />
             <span>Slide 1</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={health}/>
+            <img src={health} alt="code for cancer costs analysis" />
             <span>Slide 2</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={income}/>
+            <img src={income} alt="segregation data" />
             <span>Slide 3</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={map}/>
+            <img src={map} alt="liver disease by state" />
             <span>Slide 4</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={nn}/>
+            <img src={nn} alt="neural network performance" />
             <span>Slide 5</span>
           </div> 
         </Slide>
