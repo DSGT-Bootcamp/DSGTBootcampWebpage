@@ -1,11 +1,12 @@
 import React from "react";
 
 const Footer = () => (
-  <div class="container">
+  <div class="container" style={{marginRight: "0px"}}>
       <div className="footer">
-        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.datasciencegt.org"> datasciencegt.org </a>
+        {/* <p style={{right: "0"}}> */}
+        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.datasciencegt.org" style = {{color: "white", textAlign: "right"}}> datasciencegt.org </a>
+        {/* </p> */}
       </div>
-      
   </div>
   
   

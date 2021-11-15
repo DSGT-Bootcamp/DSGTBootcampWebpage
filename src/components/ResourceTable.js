@@ -3,7 +3,7 @@ import React from 'react';
 class ResourceTable extends React.Component {
     render() {
         return (
-            <table>
+            <table style={{marginTop: "0px"}}>
                 <thead>
                 <tr>
                     <th>Resource Topic/Link</th>
