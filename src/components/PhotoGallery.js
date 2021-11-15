@@ -29,10 +29,10 @@ class PhotoGallery extends React.Component {
       <div style={divPadding}>
       <Container>
       <div style={divPaddingInner}>
-      <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
-      <Card style={noBorder} bg="dark"> {/*Vindhya*/}
+      <CardDeck style={{flexDirection: 'row', display:"flex", alignItems:"space-between", justifyContent:"space-between", flexWrap:"wrap"}}>
+      <Card style={noBorder} bg="dark" width="30vh"> {/*Vindhya*/}
         <Card.Img src={Vindhya}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
           <Card.Title className="text-center"><h4>Vindhya Pasala</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -45,20 +45,20 @@ class PhotoGallery extends React.Component {
         </Card>
         <Card style={noBorder} bg="dark"> {/*Neil*/}
         <Card.Img src={Neil}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#005775"}}>
           <Card.Title className="text-center"><h4>Neil Patel</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
             <br/>
             Year: 3rd
             <br/>
-            Fun Fact: I am a big Apple fan, I exclusively use their products (Apple Music{'>'}{'>'}{'>'}Spotify)
+            Fun Fact: I am a big Apple fan, I exclusively use their products (Apple Music{'>'}{'>'}{'>'}Spotify).
           </Card.Text>
           </Card.Body>
         </Card>
         <Card style={noBorder} bg="dark"> {/*Harris*/}
         <Card.Img src={Harris}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
           <Card.Title className="text-center"><h4>Harris Barton</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -71,7 +71,7 @@ class PhotoGallery extends React.Component {
         </Card>
         <Card style={noBorder} bg="dark"> {/*Karthik*/}
         <Card.Img src={Karthik}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#005775"}}>
           <Card.Title className="text-center"><h4>Karthik Subramanian</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -83,10 +83,10 @@ class PhotoGallery extends React.Component {
           </Card.Body>
         </Card>
       </CardDeck>
-      <CardDeck>
+      <CardDeck style={{paddingTop: "50px"}}>
       <Card style={noBorder} bg="dark"> {/*Shasha*/}
         <Card.Img src={Shasha}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
           <Card.Title className="text-center"><h4>Shasha Liao</h4></Card.Title>
           <Card.Text>
             Major: Mathematics and Computational Science and Engineering
@@ -99,7 +99,7 @@ class PhotoGallery extends React.Component {
         </Card>
         <Card style={noBorder} bg="dark"> {/*Nathan*/}
         <Card.Img src={Nathan}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#005775"}}>
           <Card.Title className="text-center"><h4>Nathan Zhong</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -112,7 +112,7 @@ class PhotoGallery extends React.Component {
         </Card>
         <Card style={noBorder} bg="dark"> {/*Joseph*/}
         <Card.Img src={Joseph}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
           <Card.Title className="text-center"><h4>Joseph Cannaday</h4></Card.Title>
           <Card.Text>
             Major: Electrical Engineering
@@ -125,7 +125,7 @@ class PhotoGallery extends React.Component {
         </Card>
         <Card style={noBorder} bg="dark"> {/*Long*/}
         <Card.Img src={Long}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#005775"}}>
           <Card.Title className="text-center"><h4>Long Lam</h4></Card.Title>
           <Card.Text>
             Major: Computer Science
@@ -138,7 +138,7 @@ class PhotoGallery extends React.Component {
         </Card>
         <Card style={noBorder} bg="dark"> {/*Nick*/}
         <Card.Img src={Nick}/>
-          <Card.Body>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
           <Card.Title className="text-center"><h4>Nicholas Zhang</h4></Card.Title>
           <Card.Text>
             Major: Mechanical Engineering

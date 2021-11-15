@@ -3,6 +3,7 @@ import React from 'react';
 class ScheduleTable extends React.Component {
     render() {
         return (
+            <div style={{width: "80%", marginTop: "40px", marginLeft: "auto", marginRight: "auto"}}>
             <table>
               <thead>
                   <tr>
@@ -55,6 +56,7 @@ class ScheduleTable extends React.Component {
                   </tr>
               </tbody>
             </table>
+            </div>
         );
     }
 }

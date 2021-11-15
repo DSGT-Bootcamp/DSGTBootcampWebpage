@@ -1,13 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
-import About from './components/About';
+import About from './components/About.js';
 import Schedule from './components/Schedule';
 import Mentors from './components/Mentors';
 import Resource from './components/Resource';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navigation from './components/Navigation';
-import Contact from './components/Contact';
+import Contact from './components/Contact/index';
 import ReactGA from 'react-ga';
 import RouteChangeTracker from './components/RouteChangeTracker';
 
@@ -22,20 +22,19 @@ ReactGA.exception({
 function App() {
   return (
     <div className="App">
-      
       <Navigation/>
       <BrowserRouter>
       <RouteChangeTracker/>
           <Switch>
-             <Route path='/contact' component={Contact}/>
+             {/* <Route path='/contact' component={Contact}/> */}
              <Route path='/resources' component={Resource}/>
              <Route path='/mentors' component={Mentors}/>
              <Route path='/schedule' component={Schedule}/>                
              <Route path='/about' component={About}/>  
              <Route path='/' component={Home}/>            
           </Switch>
-      </BrowserRouter>            
-          
+      </BrowserRouter> 
+      <Contact/>
       {/* <Home /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
