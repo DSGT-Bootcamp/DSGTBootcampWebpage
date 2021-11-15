@@ -1,5 +1,4 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import Logo from '../../images/dsgtlogo (1).png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { SocialIcon } from 'react-social-icons';
@@ -20,21 +19,21 @@ const Contact = () => {
                         <Row style={{display: "flex", justifyContent: "center", verticalAlign: "middle"}}>
                             <Col>
                             <li class="nav-item">
-                                <a>
+                                <a href="mailto: dsgtbootcamp@gmail.com">
                                 <SocialIcon url="mailto: dsgtbootcamp@gmail.com"/>
                                 </a>
                             </li>
                             </Col>
                             <Col>
                             <li class="nav-item">
-                                <a>
+                                <a href="https://www.linkedin.com/company/dsgt/mycompany/">
                                 <SocialIcon url="https://www.linkedin.com/company/dsgt/mycompany/"/>
                                 </a>
                             </li>
                             </Col>
                             <Col>
                             <li class="nav-item">
-                                <a>
+                                <a href="https://www.facebook.com/datasciencegt/">
                                 <SocialIcon url="https://www.facebook.com/datasciencegt/"/>
                                 </a>
                             </li>

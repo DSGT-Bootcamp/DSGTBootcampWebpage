@@ -10,20 +10,6 @@ import Background from '../images/homepage_background.jpg';
 import Container from 'react-bootstrap/Container';
 // import Navigation from 'Navigation.js';
 
-let backgroundImg = {
-  // backgroundImage: `url(${Background})`,
-  // height: "100%",
-  height: "100px",
-  width: "100px",
-  // backgroundSize: "cover",
-  // color: "white",
-};
-
-let backgroundTint = {
-  height: "inherit",
-  // background: 'rgba(0,99,185,0.75)',
-};
-
 class Home extends React.Component {
   render() {
     return (
@@ -50,7 +36,7 @@ class Home extends React.Component {
             </Col>
             <Col align="center">
               <Container>
-              <img src = {Background} style={{height: "400px", width: "auto"}}></img>
+              <img src = {Background} style={{height: "400px", width: "auto"}} alt="workshop 4"></img>
               </Container>
             </Col>
           </Row>
