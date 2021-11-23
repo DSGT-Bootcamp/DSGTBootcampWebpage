@@ -31,6 +31,11 @@ class ResourceTable extends React.Component {
                     <td><a href="https://neuralnetworksanddeeplearning.com/index.html">Neural Networks and Deep Learning</a></td>
                     <td><text style={{ color: 'red' }}>Familiarity with Linear Algebra, Calculus, and Python</text></td>
                 </tr>
+                <tr>
+                        <td><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Linear Algebra 3 Blue 1 Brown</a></td>
+                        <td><text style={{color: 'red'}}>None</text></td>
+                </tr>
+                
                 </tbody>
             </table>
 
