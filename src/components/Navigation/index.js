@@ -34,10 +34,10 @@ const Navigation = () => {
                             <Nav.Item className="ml-auto">
                                 <Nav.Link href='/resources'>Resources</Nav.Link>
                             </Nav.Item>
-                            {/* <Nav.Item className="ml-auto">
-                                <Nav.Link href='/contact'>Contact</Nav.Link>
+                            <Nav.Item className="ml-auto">
+                                <Nav.Link href='/options'>Bootcamp Options</Nav.Link>
 
-                            </Nav.Item>   */}
+                            </Nav.Item>  
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
