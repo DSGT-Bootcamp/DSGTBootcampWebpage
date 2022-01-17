@@ -10,6 +10,7 @@ import Navigation from './components/Navigation';
 import Contact from './components/Contact/index';
 import ReactGA from 'react-ga';
 import RouteChangeTracker from './components/RouteChangeTracker';
+import BootcampOptions from './components/BootcampOptions';
 
 const TRACKING_ID = "UA-185881457-1"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID, { testMode: process.env.NODE_ENV === 'test' });
@@ -28,6 +29,7 @@ function App() {
           <Switch>
              {/* <Route path='/contact' component={Contact}/> */}
              <Route path='/resources' component={Resource}/>
+             <Route path='/options' component={BootcampOptions}/>
              <Route path='/mentors' component={Mentors}/>
              <Route path='/schedule' component={Schedule}/>                
              <Route path='/about' component={About}/>  
