@@ -18,6 +18,7 @@ class About extends React.Component {
                     milestones and provide feedback on your work. DSGT Bootcamp is the ideal place to 
                     jumpstart your data science career!
                   </p>
+                  <a href="/options" style={{color: "blue"}}>Click here to view your options for participating in DSGT Bootcamp</a>
               </div>
             </div>
             <AboutSlideshow/>

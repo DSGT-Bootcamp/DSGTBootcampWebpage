@@ -89,3 +89,25 @@ p {
   height: 64px;
   border-top: 1px solid #ebebeb;
 }
+
+tr:not(:first-child){    
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply hover effect to td */
+td:hover {
+  background: orangered;
+}
