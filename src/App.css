@@ -109,5 +109,5 @@ tr:not(:first-child){
 
 /* Apply hover effect to td */
 td:hover {
-  background: orangered;
+  background: lightblue;
 }
