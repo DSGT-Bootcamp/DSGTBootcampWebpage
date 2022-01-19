@@ -30,8 +30,8 @@ class Home extends React.Component {
                 solve a real-world problem. Click on the button below to apply today and gain significant insight through this experience!</p>
               </Container>
               <Container align="center" style={{paddingTop: "25px", paddingBottom: "50px"}}>
-              <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfv3_12vdyWsy_Lz9u3DCarO1Mw_HxIsF3hzm-92KOVU_otwQ/viewform" variant="outline-light" size="lg">Apply Today!</Button>{' '}
-              <Button href="https://forms.gle/C9crXxNJ5S8KEY3FA" variant="outline-light" size="lg">Register your Bootcamp Project Team!</Button>{' '}
+              <Button href="http://apply.datasciencegt.org" variant="outline-light" size="lg">Apply Today!</Button>{' '}
+              <Button href="https://forms.gle/4Jjo3Kuc45PaY3c9A" variant="outline-light" size="lg">Register your Bootcamp Project Team!</Button>{' '}
             </Container>
             </Col>
             <Col align="center">
