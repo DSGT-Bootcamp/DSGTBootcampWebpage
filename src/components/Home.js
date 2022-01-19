@@ -1,6 +1,5 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
-//import {Dropdown} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,18 +7,20 @@ import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 import Background from '../images/homepage_background.jpg';
 import Container from 'react-bootstrap/Container';
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-// import Navigation from 'Navigation.js';
+import { Alert } from "react-bootstrap";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
       {/* <h1 class="font-weight" style={{color: "white", textAlign: "center",  paddingTop: "30px"}}></h1> */}
-      <Popup trigger={<button> Trigger</button>} position="right center">
-        <div>Apply to DSGT Bootcamp for Spring 2022 through this <a href="http://apply.datasciencegt.org">link</a></div>
-      </Popup>
+      <Alert variant="success" position="right center" style={{color: "black"}} >
+          <Alert.Heading>DSGT Bootcamp</Alert.Heading>
+          <p>
+               Apply to DSGT Bootcamp for Spring 2022 through this <a href="http://apply.datasciencegt.org">link</a>
+          </p>
+      </Alert>
       <div style={{backgroundColor: "gray", paddingTop: "40px", paddingLeft: "50px"}}>
           <Row style={{width: "100%"}}>
             <Col>
