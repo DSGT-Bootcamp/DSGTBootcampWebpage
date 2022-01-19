@@ -8,6 +8,8 @@ import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 import Background from '../images/homepage_background.jpg';
 import Container from 'react-bootstrap/Container';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 // import Navigation from 'Navigation.js';
 
 class Home extends React.Component {
@@ -15,6 +17,9 @@ class Home extends React.Component {
     return (
       <div>
       {/* <h1 class="font-weight" style={{color: "white", textAlign: "center",  paddingTop: "30px"}}></h1> */}
+      <Popup trigger={<button> Trigger</button>} position="right center">
+        <div>Apply to DSGT Bootcamp for Spring 2022 through this <a href="http://apply.datasciencegt.org">link</a></div>
+      </Popup>
       <div style={{backgroundColor: "gray", paddingTop: "40px", paddingLeft: "50px"}}>
           <Row style={{width: "100%"}}>
             <Col>
