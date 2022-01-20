@@ -1,11 +1,13 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import AboutSlideshow from './AboutSlideshow/index.js';
+import DemographicsSlideshow from './DemographicsSlideshow/index.js';
+
 class About extends React.Component {
     render() {
         return (
-          <div style={{height: "600px", marginBottom: "500px"}}>
-            <div class="container">
-              <div className="home">
+          <div style={{height: "1200px", marginBottom: "500px"}}>
+            <Container>
                 {/* <div class="col-lg-7">
                 </div>
                 <div class="col-lg-5" style={{height: "500px"}}> */}
@@ -19,9 +21,15 @@ class About extends React.Component {
                     jumpstart your data science career!
                   </p>
                   <a href="/options" style={{color: "blue"}}>Click here to view your options for participating in DSGT Bootcamp</a>
-              </div>
-            </div>
-            <AboutSlideshow/>
+                <h2 style={{height: "50px", paddingTop: "50px", paddingBottom: "25px", textAlign: "center", color: "black"}}>
+                  Here are some sample projects from previous bootcamps!
+                </h2>
+                <AboutSlideshow/>
+                <h3 style={{textAlign: "center", color: "black"}}>
+                  Here are demographic data from the most recent Fall 2021 Bootcamp!
+                </h3>
+                <DemographicsSlideshow/>
+            </Container>
           </div>
         );
     }
