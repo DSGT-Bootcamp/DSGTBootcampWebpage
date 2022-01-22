@@ -19,6 +19,7 @@ class About extends React.Component {
                     jumpstart your data science career!
                   </p>
                   <a href="/options" style={{color: "blue"}}>Click here to view your options for participating in DSGT Bootcamp</a>
+                  <p style={{color: "black"}}>Hello my name is Faris and I am a new content creator!</p>
               </div>
             </div>
             <AboutSlideshow/>
