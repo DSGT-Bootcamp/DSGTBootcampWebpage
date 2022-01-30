@@ -1,36 +1,34 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import disease from '../../SlideshowPhotos/disease.png';
+import ethnicity from '../../demographicPhotos/ethnicity.png';
+import gender from '../../demographicPhotos/gender.png';
+import location from '../../demographicPhotos/location.png';
+import major from '../../demographicPhotos/major.png';
+import year from '../../demographicPhotos/year.png';
 
-import nn from '../../SlideshowPhotos/nn.png';
-import income from '../../SlideshowPhotos/income.png';
-
-import health from '../../SlideshowPhotos/health.png';
-import map from '../../SlideshowPhotos/map.png';
-
-const AboutSlideshow = () => {
+const DemographicsSlideshow = () => {
     return (
       <div style={{marginBottom: "50px", marginTop: "50px"}}>
         <Slide easing="ease">
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={disease} alt="disease occurrence across cities" />
+            <img src={ethnicity} alt="Fall 2021 Bootcamp Ethnicity Demographics" />
             <span>Slide 1</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={health} alt="code for cancer costs analysis" />
+            <img src={gender} alt="Fall 2021 Bootcamp Gender Demographics" />
             <span>Slide 2</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={income} alt="segregation data" />
+            <img src={location} alt="Fall 2021 Bootcamp Location Demographics" />
             <span>Slide 3</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={map} alt="liver disease by state" />
+            <img src={major} alt="Fall 2021 Bootcamp Major Demographics" />
             <span>Slide 4</span>
           </div> 
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
-            <img src={nn} alt="neural network performance" />
+            <img src={year} alt="Fall 2021 Bootcamp Year of Study Demographics" />
             <span>Slide 5</span>
           </div> 
         </Slide>
@@ -38,4 +36,4 @@ const AboutSlideshow = () => {
     )
 };
 
-export default AboutSlideshow;
+export default DemographicsSlideshow;
