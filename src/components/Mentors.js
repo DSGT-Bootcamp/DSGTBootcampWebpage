@@ -4,7 +4,7 @@ class Mentors extends React.Component {
     render() {
         return (
           <div className="home" style={{alignContent: "center"}}>
-            <div class="container">
+            <div className="container">
               {/* <div class="row align-items-center my-5">
                 <div class="col-lg-7">
                 </div>

@@ -8,7 +8,7 @@ import Footer from '../Footer'
 const Contact = () => {
     return (
         <div style={{background: "#011c33", width: "100%", marginTop: "100px", padding: "0px", border: "0px", clear: "both"}}>
-            <Navbar collapseOnSelect expand='sm' variant='dark' class='container-fluid' style={{ height: "100px"}}>
+            <Navbar collapseOnSelect expand='sm' variant='dark' className='container-fluid' style={{ height: "100px"}}>
                 <Container>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                     <Navbar.Collapse id='responsive-navbar-nav'  style={{display: "flex", justifyContent: "center", margin: "0px"}}>
@@ -18,21 +18,21 @@ const Contact = () => {
                         </Row>
                         <Row style={{display: "flex", justifyContent: "center", verticalAlign: "middle"}}>
                             <Col>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a href="mailto: dsgtbootcamp@gmail.com">
                                 <SocialIcon url="mailto: dsgtbootcamp@gmail.com"/>
                                 </a>
                             </li>
                             </Col>
                             <Col>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a href="https://www.linkedin.com/company/dsgt/mycompany/">
                                 <SocialIcon url="https://www.linkedin.com/company/dsgt/mycompany/"/>
                                 </a>
                             </li>
                             </Col>
                             <Col>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a href="https://www.facebook.com/datasciencegt/">
                                 <SocialIcon url="https://www.facebook.com/datasciencegt/"/>
                                 </a>

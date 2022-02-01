@@ -20,13 +20,13 @@ class Home extends React.Component {
             <Col>
               <Container>
                 <h2>Data Science at Georgia Tech Bootcamp</h2>
-                <p class="font-weight-light">Welcome to DSGT Bootcamp! Our club is a diverse community of data science students 
+                <p className="font-weight-light">Welcome to DSGT Bootcamp! Our club is a diverse community of data science students 
                 who are passionate about sharing our vision: data science with a focus on the community. 
                 We fully believe that we can make impactful strides in improving our society through 
                 real-world projects and workshops here at DSGT!</p>
               </Container>
               <Container>
-                <p class="font-weight-light">Bootcamp provides a valuable opportunity to learn data science skills using Python, NumPy, Pandas, and other machine learning techniques and create a project that will could potentially 
+                <p className="font-weight-light">Bootcamp provides a valuable opportunity to learn data science skills using Python, NumPy, Pandas, and other machine learning techniques and create a project that will could potentially 
                 solve a real-world problem. Click on the button below to apply today and gain significant insight through this experience!</p>
               </Container>
               <Container align="center" style={{paddingTop: "25px", paddingBottom: "50px"}}>

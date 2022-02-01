@@ -12,8 +12,8 @@ class About extends React.Component {
                 </div>
                 <div class="col-lg-5" style={{height: "500px"}}> */}
                 <h1 style={{class: "font-weight-bold", paddingTop: "50px", textAlign: "center", color: "black"}}>About DSGT Bootcamp</h1>
-                  <p style={{alignContent: "center", color: "black"}} class="font-weight-100" >
-                    DSGT bootcamp is an immersive 11-week experience where you’ll
+                  <p style={{alignContent: "center", color: "black"}} className="font-weight-100" >
+                    DSGT bootcamp is an immersive 11-week experience where you'll
                     learn a variety of data science skills and work in teams to answer 
                     significant questions by analyzing data. Our mentors will host 
                     workshops and guide you through your projects. We work in iterative

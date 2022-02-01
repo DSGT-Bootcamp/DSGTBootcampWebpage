@@ -2,13 +2,15 @@
   text-align: left;
   color: white;
   font-weight: 500;
-  min-height:100vh;
+  min-height: 100vh;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-html{height:100%}
+html {
+  height: 100%;
+}
 
 .App-logo {
   height: 40vmin;
@@ -47,11 +49,12 @@ html{height:100%}
 
 Table {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border-collapse: collapse;
   width: 100%;
 }
-Table td, Table th {
+Table td,
+Table th {
   border: 1px solid #ddd;
   padding: 3px 3px;
 }
@@ -61,14 +64,13 @@ Table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: #1C6EA4;
+  background-color: #1c6ea4;
   color: white;
 }
 
-
 /* .bg-image { */
-  /* background-color: rgb(18, 77, 129); */
-  /* background-image: url("/src/images/dataviz.png"); */
+/* background-color: rgb(18, 77, 129); */
+/* background-image: url("/src/images/dataviz.png"); */
 /* } */
 
 body {
@@ -80,8 +82,7 @@ body {
   flex-direction: column;
   color: blue;
   background-position: top center;
-  background:
-    "linear-gradient(to bottom, rgba(0,22,41,1), rgba(0,22,41,0.7), rgba(0,99,185,0.7), rgba(0,99,185,0.7))",
+  background: "linear-gradient(to bottom, rgba(0,22,41,1), rgba(0,22,41,0.7), rgba(0,99,185,0.7), rgba(0,99,185,0.7))";
 }
 p {
   margin-top: 50px;
@@ -99,5 +100,3 @@ p {
   height: 64px;
   border-top: 1px solid #ebebeb;
 }
-
-
