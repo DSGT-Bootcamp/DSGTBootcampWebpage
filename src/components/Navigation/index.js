@@ -8,7 +8,7 @@ const Navigation = () => {
     <div style={styles.navBarPlaceholder}>
       <Navbar
         collapseOnSelect
-        expand="sm"
+        expand="lg"
         class="container-fluid"
         fixed="top"
         style={styles.navBar}
@@ -26,33 +26,29 @@ const Navigation = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" style={styles.container}>
-            <Nav
-              className="me-auto"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Nav.Item className="ml-auto">
+            <Nav navbarScroll>
+              <Nav.Item style={styles.navBarItem}>
                 <NavLinkButton url_extension="/">Home</NavLinkButton>
               </Nav.Item>
-              <Nav.Item className="ml-auto">
+              <Nav.Item style={styles.navBarItem}>
                 <NavLinkButton url_extension="/schedule">
                   Schedule
                 </NavLinkButton>
               </Nav.Item>
-              <Nav.Item className="ml-auto">
+              <Nav.Item style={styles.navBarItem}>
                 <NavLinkButton url_extension="/mentors">Mentors</NavLinkButton>
               </Nav.Item>
-              <Nav.Item className="ml-auto">
+              <Nav.Item style={styles.navBarItem}>
                 <NavLinkButton url_extension="/resources">
                   Resources
                 </NavLinkButton>
               </Nav.Item>
-              <Nav.Item className="ml-auto">
+              <Nav.Item style={styles.navBarItem}>
                 <NavLinkButton url_extension="/options">
                   Bootcamp Options
                 </NavLinkButton>
               </Nav.Item>
-              <Nav.Item className="ml-auto">
+              <Nav.Item style={styles.navBarItem}>
                 <NavLinkButton url_extension="/about">About</NavLinkButton>
               </Nav.Item>
             </Nav>
@@ -71,6 +67,10 @@ const styles = {
     background: COLORS["primary_blue"],
     width: "100%",
     height: "80px",
+  },
+  navBarItem: {
+    marginInline: "25px",
+    background: COLORS["primary_blue"],
   },
   container: {
     lineHeight: "50px",

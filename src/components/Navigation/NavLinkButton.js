@@ -30,13 +30,15 @@ const NavLinkButton = (props) => {
 
 const styles = {
   navBar_link_current: {
-    color: "white",
+    // default is navBar_link_normal
   },
   navBar_link_normal: {
+    fontSize: 30,
     color: "white",
   },
   navBar_link_hover: {
-    color: "#FFFFFF80",
+    fontSize: 30,
+    color: COLORS["gray_font_transparent"],
   },
 };
 
