@@ -1,8 +1,7 @@
-import { useState } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import Logo from "../../images/dsgtlogo (1).png";
 import COLORS from "../../constants";
+import Logo from "../../images/dsgtlogo (1).png";
 import NavLinkButton from "./NavLinkButton";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Navigation = () => {
   return (
@@ -17,7 +16,7 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" style={styles.container}>
             <Nav>
-              <Nav.Item className="ml-auto">
+              <Navbar.Brand href="/">
                 <img
                   src={Logo}
                   alt="dsgt logo"
@@ -26,12 +25,9 @@ const Navigation = () => {
                   display="flex"
                   lineheight="69"
                 />
-              </Nav.Item>
+              </Navbar.Brand>
               <Nav.Item className="ml-auto">
                 <NavLinkButton url_extension="/">Home</NavLinkButton>
-              </Nav.Item>
-              <Nav.Item className="ml-auto">
-                <NavLinkButton url_extension="/about">About</NavLinkButton>
               </Nav.Item>
               <Nav.Item className="ml-auto">
                 <NavLinkButton url_extension="/schedule">
@@ -51,6 +47,9 @@ const Navigation = () => {
                   Bootcamp Options
                 </NavLinkButton>
               </Nav.Item>
+              <Nav.Item className="ml-auto">
+                <NavLinkButton url_extension="/about">About</NavLinkButton>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -64,11 +63,8 @@ const styles = {
     background: COLORS["primary_blue"],
     width: "100%",
     height: "80px",
-    position: "sticky",
   },
   container: {
-    display: "flex",
-    alignItems: "center",
     lineHeight: "50px",
   },
 };

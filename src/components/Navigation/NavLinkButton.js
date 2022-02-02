@@ -29,17 +29,6 @@ const NavLinkButton = (props) => {
 };
 
 const styles = {
-  navBar: {
-    background: COLORS["primary_blue"],
-    width: "100%",
-    height: "80px",
-    position: "sticky",
-  },
-  container: {
-    display: "flex",
-    alignItems: "center",
-    lineHeight: "50px",
-  },
   navBar_link_current: {
     color: "white",
   },
