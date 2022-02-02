@@ -2,19 +2,19 @@
  Used for both navigation bar at top and footer
  ****/
 
- .main {
-    background: #011c33;
-}
+/* .main {
+  background: #011c33;
+} */
 
-.navbar, .navbar-default {
+/* .navbar,
+.navbar-default {
   color: white !important;
-}
+} */
 
+/* .nav-link {
+  color: white;
+} */
 
-.nav-link {
-  color: white ;
-}
-
-.nav-link:hover {
-    color: #338AFC;
-}
+/* .nav-link:hover {
+  color: white;
+} */
