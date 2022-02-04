@@ -1,26 +1,27 @@
-import React from "react";
 import Button from "react-bootstrap/Button";
-//import {Dropdown} from 'react-bootstrap';
 import Card from "react-bootstrap/Card";
-import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Tab from "react-bootstrap/Tab";
-import Nav from "react-bootstrap/Nav";
-import Background from "../images/homepage_background.jpg";
 import Container from "react-bootstrap/Container";
-// import Navigation from 'Navigation.js';
+import FirstScrollScreen from "./FirstScrollScreen";
+import Nav from "react-bootstrap/Nav";
+import OldBackground from "../../images/homepage_background.jpg";
+import React from "react";
+import Row from "react-bootstrap/Row";
+import Tab from "react-bootstrap/Tab";
+
 
 class Home extends React.Component {
   render() {
     return (
-      <div>
-        {/* <h1 class="font-weight" style={{color: "white", textAlign: "center",  paddingTop: "30px"}}></h1> */}
+      <div id="homeScreenMainDiv">
+        <FirstScrollScreen></FirstScrollScreen>
         <div
           style={{
             backgroundColor: "gray",
             paddingTop: "40px",
             paddingLeft: "50px",
           }}
+          id="blobb"
         >
           <Row style={{ width: "100%" }}>
             <Col>
@@ -68,7 +69,7 @@ class Home extends React.Component {
             <Col align="center">
               <Container>
                 <img
-                  src={Background}
+                  src={OldBackground}
                   style={{ height: "400px", width: "auto" }}
                   alt="workshop 4"
                 ></img>
@@ -211,11 +212,10 @@ class Home extends React.Component {
           </Tab.Container>
         </div>
       </div>
-      //     </div>
-      //   </div>
-      // </div>
-      // </div>
     );
   }
 }
+
 export default Home;
+
+const styles = {};

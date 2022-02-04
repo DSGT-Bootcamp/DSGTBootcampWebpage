@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
+import Home from './components/HomeScreen/Home.js';
 import About from './components/About.js';
 import Schedule from './components/Schedule';
 import Mentors from './components/Mentors';

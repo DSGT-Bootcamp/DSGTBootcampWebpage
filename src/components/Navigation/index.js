@@ -1,5 +1,5 @@
 import COLORS from "../../constants";
-import Logo from "../../images/dsgtlogo (1).png";
+import Logo from "../../images/dsgt-logo-light.png";
 import NavLinkButton from "./NavLinkButton";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
@@ -59,14 +59,16 @@ const Navigation = () => {
   );
 };
 
+const navBarHeight = "80px";
+
 const styles = {
   navBarPlaceholder: {
-    height: "80px",
+    height: navBarHeight,
   },
   navBar: {
     background: COLORS["primary_blue"],
     width: "100%",
-    height: "80px",
+    height: navBarHeight,
   },
   navBarItem: {
     marginInline: "25px",
