@@ -2,45 +2,53 @@ import Button from "react-bootstrap/Button";
 import COLORS from "../../constants";
 import FirstScrollScreenBackground from "../../images/homescreen_images/transparent_workshop.png";
 import HalfLogo from "../../images/homescreen_images/dsgt-logo-half.png";
-import React, {useState} from "react";
+import React from "react";
 import Row from "react-bootstrap/Row";
 
-class FirstScrollScreen extends React.Component {
+const FirstScrollScreen = (props) => {
+  const [hovering, setHovering] = React.useState(false);
 
-  render() {
-    return (
-      <div style={styles.mainContainer}>
-        <div style={styles.wordsContainer}>
-          {/* <Row style={styles.upperPadding}></Row> */}
-          <Row>
-            <h1 style={styles.bigTitle}>Data Science</h1>
-          </Row>
-          <Row>
-            <h1 style={styles.bigTitle}>At Georgia Tech</h1>
-          </Row>
-          <Row>
-            <h1 style={styles.bigTitle}>Bootcamp</h1>
-          </Row>
-          <Row>
-            <p style={styles.subtitle}>
-              Making data science accessible for all
-            </p>
-          </Row>
-          <Button
-            style={styles.applyNowBtn}
-            onClick={() => {
-              window.open("http://apply.datasciencegt.org/");
-            }}
-          >
-            Apply
-          </Button>
-        </div>
-
-        <img style={styles.halfLogo} src={HalfLogo} />
-      </div>
-    );
+  if (hovering) {
+    styles.applyNowBtn = styles.applyNowBtnHovering;
+  } else {
+    styles.applyNowBtn = styles.applyNowBtnNonHovering;
   }
-}
+
+  return (
+    <div style={styles.mainContainer}>
+      <div style={styles.wordsContainer}>
+        <Row>
+          <h1 style={styles.bigTitle}>Data Science</h1>
+        </Row>
+        <Row>
+          <h1 style={styles.bigTitle}>At Georgia Tech</h1>
+        </Row>
+        <Row>
+          <h1 style={styles.bigTitle}>Bootcamp</h1>
+        </Row>
+        <Row>
+          <p style={styles.subtitle}>Making data science accessible for all</p>
+        </Row>
+        <Button
+          style={styles.applyNowBtn}
+          onClick={() => {
+            window.open("http://apply.datasciencegt.org/");
+          }}
+          onMouseEnter={() => {
+            setHovering(true);
+          }}
+          onMouseLeave={() => {
+            setHovering(false);
+          }}
+        >
+          Apply
+        </Button>
+      </div>
+
+      <img style={styles.halfLogo} src={HalfLogo} />
+    </div>
+  );
+};
 
 export default FirstScrollScreen;
 
@@ -86,11 +94,23 @@ const styles = {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    
   },
-  applyNowBtn: {
+  applyNowBtn: {},
+  applyNowBtnNonHovering: {
     marginLeft: "100px",
     background: COLORS["primary_blue_70"],
+    color: COLORS["white"],
+    fontSize: "1.7em",
+    borderRadius: "50px",
+    border: "0px",
+    marginTop: "10px",
+    width: "250px",
+    height: "60px",
+    fontWeight: "500",
+  },
+  applyNowBtnHovering: {
+    marginLeft: "100px",
+    background: COLORS["primary_blue"],
     color: COLORS["white"],
     fontSize: "1.7em",
     borderRadius: "50px",

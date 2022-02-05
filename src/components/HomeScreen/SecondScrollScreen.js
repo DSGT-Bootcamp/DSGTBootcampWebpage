@@ -2,30 +2,28 @@ import COLORS from "../../constants";
 import React from "react";
 import SecondScrollScreenBackground from "../../images/homescreen_images/second_screen_background.png";
 
-class SecondScrollScreen extends React.Component {
-  render() {
-    return (
-      <div style={styles.mainContainer}>
-        <div style={styles.wordsContainer}>
-          <h2 style={styles.title}>Welcome</h2>
-          <div style={styles.subtitle}>
-            <p>
-              Our club is a diverse community of data science students who are
-              passionate about sharing our vision—data science with a focus on
-              the community.
-            </p>
-            <br/>
-            <p>
-              We fully believe that we can make <b>impactful</b> strides in
-              improving our society through real-world projects and workshops
-              here at DSGT.
-            </p>
-          </div>
+const SecondScrollScreen = (props) => {
+  return (
+    <div style={styles.mainContainer}>
+      <div style={styles.wordsContainer}>
+        <h2 style={styles.title}>Welcome</h2>
+        <div style={styles.subtitle}>
+          <p>
+            Our club is a diverse community of data science students who are
+            passionate about sharing our vision—data science with a focus on the
+            community.
+          </p>
+          <br />
+          <p>
+            We fully believe that we can make <b>impactful</b> strides in
+            improving our society through real-world projects and workshops here
+            at DSGT.
+          </p>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default SecondScrollScreen;
 
