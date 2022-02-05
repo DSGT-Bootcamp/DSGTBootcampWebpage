@@ -2,10 +2,11 @@ import Button from "react-bootstrap/Button";
 import COLORS from "../../constants";
 import FirstScrollScreenBackground from "../../images/homescreen_images/transparent_workshop.png";
 import HalfLogo from "../../images/homescreen_images/dsgt-logo-half.png";
-import React from "react";
+import React, {useState} from "react";
 import Row from "react-bootstrap/Row";
 
 class FirstScrollScreen extends React.Component {
+
   render() {
     return (
       <div style={styles.mainContainer}>

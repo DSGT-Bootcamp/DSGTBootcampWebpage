@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import FirstScrollScreen from "./FirstScrollScreen";
+import SecondScrollScreen from "./SecondScrollScreen";
 import Nav from "react-bootstrap/Nav";
 import OldBackground from "../../images/homepage_background.jpg";
 import React from "react";
@@ -14,7 +15,8 @@ class Home extends React.Component {
   render() {
     return (
       <div id="homeScreenMainDiv">
-        <FirstScrollScreen></FirstScrollScreen>
+        <FirstScrollScreen/>
+        <SecondScrollScreen/>
         <div
           style={{
             backgroundColor: "gray",
