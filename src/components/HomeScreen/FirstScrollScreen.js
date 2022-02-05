@@ -1,36 +1,41 @@
-import React from "react";
-import FirstScrollScreenBackground from "../../images/workshop_and_logo_2.png";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import COLORS from "../../constants";
 import Button from "react-bootstrap/Button";
+import COLORS from "../../constants";
+import FirstScrollScreenBackground from "../../images/homescreen_images/transparent_workshop.png";
+import HalfLogo from "../../images/homescreen_images/dsgt-logo-half.png";
+import React from "react";
+import Row from "react-bootstrap/Row";
 
 class FirstScrollScreen extends React.Component {
   render() {
     return (
-      <div style={styles.mainStyle}>
-        <Row style={styles.upperPadding}></Row>
-        <Row>
-          <h1 style={styles.bigTitle}>Data Science</h1>
-        </Row>
-        <Row>
-          <h1 style={styles.bigTitle}>At Georgia Tech</h1>
-        </Row>
-        <Row>
-          <h1 style={styles.bigTitle}>Bootcamp</h1>
-        </Row>
-        <Row>
-          <p style={styles.subtitle}>Making data science accessible for all</p>
-        </Row>
-        <Button
-          style={styles.applyNowBtn}
-          onClick={() => {
-            window.open("http://apply.datasciencegt.org/");
-          }}
-        >
-          Apply
-        </Button>
+      <div style={styles.mainContainer}>
+        <div style={styles.wordsContainer}>
+          {/* <Row style={styles.upperPadding}></Row> */}
+          <Row>
+            <h1 style={styles.bigTitle}>Data Science</h1>
+          </Row>
+          <Row>
+            <h1 style={styles.bigTitle}>At Georgia Tech</h1>
+          </Row>
+          <Row>
+            <h1 style={styles.bigTitle}>Bootcamp</h1>
+          </Row>
+          <Row>
+            <p style={styles.subtitle}>
+              Making data science accessible for all
+            </p>
+          </Row>
+          <Button
+            style={styles.applyNowBtn}
+            onClick={() => {
+              window.open("http://apply.datasciencegt.org/");
+            }}
+          >
+            Apply
+          </Button>
+        </div>
+
+        <img style={styles.halfLogo} src={HalfLogo} />
       </div>
     );
   }
@@ -38,12 +43,19 @@ class FirstScrollScreen extends React.Component {
 
 export default FirstScrollScreen;
 
-const navBarHeight = 80;
+// const navBarHeight = 80;
 const firstScrollScreenHeight = () => {
-  return (1080 - navBarHeight).toString() + "px";
+  return 850;
+  // return (1080 - navBarHeight).toString() + "px";
 };
 
 const styles = {
+  wordsContainer: {
+    marginTop: "-40px",
+  },
+  halfLogo: {
+    float: "right",
+  },
   upperPadding: {
     paddingTop: "100px",
   },
@@ -53,7 +65,7 @@ const styles = {
     display: "block",
     color: COLORS["black"],
     marginLeft: "100px",
-    marginTop: "-20px"
+    marginTop: "-20px",
   },
   subtitle: {
     fontSize: "2em",
@@ -65,12 +77,15 @@ const styles = {
     fontWeight: "650",
     fontStyle: "italic",
   },
-  mainStyle: {
+  mainContainer: {
     backgroundImage: `url(${FirstScrollScreenBackground}`,
-    backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: firstScrollScreenHeight(),
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
     alignItems: "center",
+    
   },
   applyNowBtn: {
     marginLeft: "100px",
