@@ -28,7 +28,7 @@ const SecondScrollScreen = (props) => {
 export default SecondScrollScreen;
 
 // const navBarHeight = 80;
-const firstScrollScreenHeight = () => {
+const scrollScreenHeight = () => {
   return 850;
   // return (1080 - navBarHeight).toString() + "px";
 };
@@ -37,7 +37,7 @@ const styles = {
   mainContainer: {
     backgroundImage: `url(${SecondScrollScreenBackground}`,
     backgroundSize: "cover",
-    height: firstScrollScreenHeight(),
+    height: scrollScreenHeight(),
     color: COLORS["primary_blue"],
     display: "flex",
     flexDirection: "row",

@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import FirstScrollScreen from "./FirstScrollScreen";
 import SecondScrollScreen from "./SecondScrollScreen";
+import ThirdScrollScreen from "./ThirdScrollScreen";
 import Nav from "react-bootstrap/Nav";
 import OldBackground from "../../images/homepage_background.jpg";
 import React from "react";
@@ -17,6 +18,7 @@ class Home extends React.Component {
       <div id="homeScreenMainDiv">
         <FirstScrollScreen/>
         <SecondScrollScreen/>
+        <ThirdScrollScreen/>
         <div
           style={{
             backgroundColor: "gray",

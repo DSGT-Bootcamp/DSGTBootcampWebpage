@@ -53,7 +53,7 @@ const FirstScrollScreen = (props) => {
 export default FirstScrollScreen;
 
 // const navBarHeight = 80;
-const firstScrollScreenHeight = () => {
+const scrollScreenHeight = () => {
   return 850;
   // return (1080 - navBarHeight).toString() + "px";
 };
@@ -89,7 +89,7 @@ const styles = {
   mainContainer: {
     backgroundImage: `url(${FirstScrollScreenBackground}`,
     backgroundSize: "cover",
-    height: firstScrollScreenHeight(),
+    height: scrollScreenHeight(),
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
