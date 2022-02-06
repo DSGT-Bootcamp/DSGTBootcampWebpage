@@ -8,7 +8,9 @@ const COLORS = {
   primary_green: "#EBE9E0",
   gray_font_transparent: "#FFFFFF80",
   home_background_fourth_scroll: "#F6F6F4",
-  pickColumnNonSelected: "#EAEAE8",
+  pickColumnNonHovering: "#EAEAE8",
+  pickColumnHovering: "#D1D1CF",
+  pickColumnSelected: "#D0D0D0",
 };
 
 export default COLORS;
