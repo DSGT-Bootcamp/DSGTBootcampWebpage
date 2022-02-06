@@ -1,51 +1,89 @@
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { SocialIcon } from 'react-social-icons';
-import Footer from '../Footer'
-
+import COLORS from "../../constants";
+import DSGTLogo from "../../images/dsgt-logo-light.png";
+import EmailLogo from "../../images/footer/email.png";
+import FacebookLogo from "../../images/footer/facebook.png";
+import LinkedInLogo from "../../images/footer/linkedin.png";
+import { Button } from "react-bootstrap";
 
 const Contact = () => {
-    return (
-        <div style={{background: "#011c33", width: "100%", marginTop: "0px", padding: "0px", border: "0px", clear: "both"}}>
-            <Navbar collapseOnSelect expand='sm' variant='dark' className='container-fluid' style={{ height: "100px"}}>
-                <Container>
-                    <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
-                    <Navbar.Collapse id='responsive-navbar-nav'  style={{display: "flex", justifyContent: "center", margin: "0px"}}>
-                        <Nav>
-                        <Row>
-                        {/* <p display="flex" justifyContent="center" marginBottom="500px">Contact us!</p> */}
-                        </Row>
-                        <Row style={{display: "flex", justifyContent: "center", verticalAlign: "middle"}}>
-                            <Col>
-                            <li className="nav-item">
-                                <a href="mailto: dsgtbootcamp@gmail.com">
-                                <SocialIcon url="mailto: dsgtbootcamp@gmail.com"/>
-                                </a>
-                            </li>
-                            </Col>
-                            <Col>
-                            <li className="nav-item">
-                                <a href="https://www.linkedin.com/company/dsgt/mycompany/">
-                                <SocialIcon url="https://www.linkedin.com/company/dsgt/mycompany/"/>
-                                </a>
-                            </li>
-                            </Col>
-                            <Col>
-                            <li className="nav-item">
-                                <a href="https://www.facebook.com/datasciencegt/">
-                                <SocialIcon url="https://www.facebook.com/datasciencegt/"/>
-                                </a>
-                            </li>
-                            </Col>
-                        </Row>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-            <Footer/>
-        </div>
-    );
-}
+  const thisYear = new Date().getFullYear();
+  return (
+    <div style={styles.mainContainer}>
+      <img src={DSGTLogo} style={styles.dsgtLogo} />
+      <p style={styles.copyright}>
+        Copyright © {thisYear} DSGT. All rights reserved.
+      </p>
+      <div style={styles.contacts}>
+        <Button
+          style={styles.contactButton}
+          onClick={() => {
+            window.location.href = "https://www.facebook.com/datasciencegt/";
+          }}
+        >
+          <img src={FacebookLogo} style={styles.contactLogo} />
+        </Button>
+        <Button
+          style={styles.contactButton}
+          onClick={() => {
+            window.location.href = "mailto:hello@datasciencegt.org";
+          }}
+        >
+          <img src={EmailLogo} style={styles.contactLogo} />
+        </Button>
+        <Button
+          style={styles.contactButton}
+          onClick={() => {
+            window.location.href = "https://www.linkedin.com/company/dsgt/";
+          }}
+        >
+          <img src={LinkedInLogo} style={styles.contactLogo} />
+        </Button>
+      </div>
+    </div>
+  );
+};
 
 export default Contact;
+
+const styles = {
+  mainContainer: {
+    height: "200px",
+    backgroundColor: COLORS.primary_blue,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    marginBottom: "0",
+  },
+  copyright: {
+    color: COLORS.white,
+    fontSize: "1em",
+  },
+  dsgtLogo: {
+    height: "80px",
+    width: "80px",
+  },
+  contacts: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  contactLogo: {
+    height: "100%",
+    width: "100%",
+  },
+  contactButton: {
+    backgroundColor: COLORS.full_transparent,
+    borderColor: COLORS.full_transparent,
+    padding: "0",
+    margin: "0",
+    width: "50px",
+    height: "50px",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginInline: "25px",
+  },
+};

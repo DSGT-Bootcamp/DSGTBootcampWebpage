@@ -11,6 +11,7 @@ const COLORS = {
   pickColumnNonHovering: "#EAEAE8",
   pickColumnHovering: "#D1D1CF",
   pickColumnSelected: "#D0D0D0",
+  full_transparent: "#00000000",
 };
 
 export default COLORS;
