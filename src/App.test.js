@@ -4,7 +4,7 @@ import App from "./App";
 test("renders dsgt bootcamp link", () => {
   render(<App />);
   const linkElement = screen.getByText(
-    /Data Science/i
+    /Georgia Tech/i
   );
   expect(linkElement).toBeInTheDocument();
 });
