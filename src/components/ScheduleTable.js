@@ -18,7 +18,7 @@ class ScheduleTable extends React.Component {
               <tbody>
                   <tr>
                     <td><text style={{ color: 'black' }}>1</text></td>
-                    <td><text style={{ color: 'black' }}>February 7th, 2022 at College of Computing 017</text></td>
+                    <td><text style={{ color: 'black' }}>February 7th, 2022 at Ford ES&T L1175</text></td>
                     <td><text style={{ color: 'black' }}>Introduction to Bootcamp</text></td>
                     <NavLink to="/https://www.youtube.com/watch?v=dQw4w9WgXcQ">Workshop 1 </NavLink> 
                     <td><text style={{ color: 'black' }}>February 21st, <NavLink to="/https://www.youtube.com/watch?v=dQw4w9WgXcQ">Milestone 1</NavLink></text></td>
