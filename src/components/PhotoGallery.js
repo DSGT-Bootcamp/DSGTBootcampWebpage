@@ -11,6 +11,9 @@ import Nathan from '../images/nathan.png';
 import Joseph from '../images/joseph.png';
 import Long from '../images/long.png';
 import Nick from '../images/nicholas.png';
+import Faris from '../images/faris.jpg';
+import Abhijat from '../images/Abhijat.png';
+import Shreiyas from '../images/shreiyas.png';
 
 var divPadding = {
   padding: "3em 0 3em 0",
@@ -136,16 +139,51 @@ class PhotoGallery extends React.Component {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={noBorder} bg="dark"> {/*Nick*/}
+      </CardDeck>
+      <CardDeck style={{paddingTop: "50px"}}>
+      <Card style={noBorder} bg="dark"> {/*Nick*/}
         <Card.Img src={Nick}/>
           <Card.Body style={{backgroundColor: "#6ca6c2"}}>
           <Card.Title className="text-center"><h4>Nicholas Zhang</h4></Card.Title>
           <Card.Text>
-            Major: Mechanical Engineering
+            Major: Computer Science
             <br/>
             Year: 1st
             <br/>
             Fun Fact: I play piano and my high school was across the street from the airport.
+          </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={noBorder} bg="dark"> {/*Faris*/}
+        <Card.Img src={Faris}/>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
+          <Card.Title className="text-center"><h4>Faris Durrani</h4></Card.Title>
+          <Card.Text>
+            Major: Computer Science
+            <br/>
+            Year: 4th
+          </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={noBorder} bg="dark"> {/*Abhijat*/}
+        <Card.Img src={Abhijat}/>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
+          <Card.Title className="text-center"><h4>Abhijat Chauhan</h4></Card.Title>
+          <Card.Text>
+            Major: Computer Science
+            <br/>
+            Year: 2nd
+          </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={noBorder} bg="dark"> {/*Shreiyas*/}
+        <Card.Img src={Shreiyas}/>
+          <Card.Body style={{backgroundColor: "#6ca6c2"}}>
+          <Card.Title className="text-center"><h4>Shreiyas Saraf</h4></Card.Title>
+          <Card.Text>
+            Major: Computer Science
+            <br/>
+            Year: 1st
           </Card.Text>
           </Card.Body>
         </Card>
