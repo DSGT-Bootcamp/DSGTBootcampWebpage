@@ -7,7 +7,7 @@ import Footer from '../Footer'
 
 const Contact = () => {
     return (
-        <div style={{background: "#011c33", width: "100%", marginTop: "100px", padding: "0px", border: "0px", position: "sticky"}}>
+        <div style={{background: "#011c33", width: "100%", marginTop: "100px", padding: "0px", border: "0px", clear: "both"}}>
             <Navbar collapseOnSelect expand='sm' variant='dark' class='container-fluid' style={{ height: "100px"}}>
                 <Container>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>

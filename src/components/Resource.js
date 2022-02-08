@@ -3,7 +3,7 @@ import ResourceTable from "./ResourceTable";
 class Resource extends React.Component {
   render() {
     return (
-      <div className="home" style={{height: "450px"}}>
+      <div className="home">
         <div class="container">
           <h1 style={{color: "black", class: "font-weight-bold", display: "flex", justifyContent: "center", paddingTop: "60px"}}>Resources</h1>
           <div class="row align-items-center my-5">

@@ -11,7 +11,7 @@ import map from '../../SlideshowPhotos/map.png';
 
 const AboutSlideshow = () => {
     return (
-      <div style={{marginBottom: "4000px", marginTop: "50px"}}>
+      <div style={{marginBottom: "50px", marginTop: "50px"}}>
         <Slide easing="ease">
           <div className="each-slide" style={{display: "flex", justifyContent: "center"}}>
             <img src={disease} alt="disease occurrence across cities" />
