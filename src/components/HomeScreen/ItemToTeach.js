@@ -41,7 +41,7 @@ const styles = {
     color: COLORS.primary_blue,
   },
   lineSpearator: {
-    color: COLORS.primary_green,
+    borderColor: COLORS.primary_green,
     borderWidth: "3px",
     width: "50%",
     marginLeft: "0",

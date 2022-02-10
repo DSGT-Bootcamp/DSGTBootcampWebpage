@@ -5,7 +5,7 @@ import HalfLogo from "../../images/homescreen_images/dsgt-logo-half.png";
 import React from "react";
 import Row from "react-bootstrap/Row";
 
-const FirstScrollScreen = (props) => {
+const FirstScrollScreen = () => {
   const [hovering, setHovering] = React.useState(false);
 
   if (hovering) {

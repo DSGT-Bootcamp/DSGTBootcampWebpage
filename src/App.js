@@ -2,7 +2,7 @@
 import './App.css';
 import Home from './components/HomeScreen/Home.js';
 import About from './components/About.js';
-import Schedule from './components/Schedule';
+import Schedule from './components/Schedule/Schedule';
 import Mentors from './components/Mentors';
 import Resource from './components/Resource';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
