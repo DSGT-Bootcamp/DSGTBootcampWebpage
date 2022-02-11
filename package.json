@@ -10,6 +10,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "enzyme": "^3.11.0",
     "mdbreact": "^5.1.0",
+    "openapi": "^1.0.1",
     "particles-bg": "^2.5.5",
     "react": "^17.0.2",
     "react-animated-bg": "^1.1.2",
@@ -53,7 +54,10 @@
     ]
   },
   "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.4.26",
     "file-loader": "^6.1.1",
-    "netlify-cli": "^5.4.16"
+    "netlify-cli": "^5.4.16",
+    "openapi-typescript": "^5.1.1",
+    "openapi-typescript-codegen": "^0.18.0"
   }
 }

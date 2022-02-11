@@ -1,0 +1,123 @@
+---
+openapi: 3.0.2
+info:
+  title: dsgt
+  version: 1.0.0
+  description: DSGT
+  contact:
+    name: Abhijat Chauhan
+    url: https://github.com/
+    email: achau3910@gmail.com
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
+servers:
+- url: http://localhost:8080/v1
+  description: Localhost
+paths:
+  /dsgts:
+    summary: Path used to manage the list of dsgts.
+    description: "The REST endpoint/path used to list and create zero or more `DSGT`\
+      \ entities.  This path contains a `GET` and `POST` operation to perform the\
+      \ list and create tasks, respectively."
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DSGT'
+          description: Successful response - returns an array of `DSGT` entities.
+      operationId: getDSGTS
+      summary: List All DSGTS
+      description: Gets a list of all `DSGT` entities.
+    post:
+      requestBody:
+        description: A new `DSGT` to be created.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DSGT'
+        required: true
+      responses:
+        "201":
+          description: Successful response.
+      operationId: createDSGT
+      summary: Create a DSGT
+      description: Creates a new instance of a `DSGT`.
+  /dsgts/{dsgtId}:
+    summary: Path used to manage a single DSGT.
+    description: "The REST endpoint/path used to get, update, and delete single instances\
+      \ of an `DSGT`.  This path contains `GET`, `PUT`, and `DELETE` operations used\
+      \ to perform the get, update, and delete tasks, respectively."
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DSGT'
+          description: Successful response - returns a single `DSGT`.
+      operationId: getDSGT
+      summary: Get a DSGT
+      description: Gets the details of a single instance of a `DSGT`.
+    put:
+      requestBody:
+        description: Updated `DSGT` information.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DSGT'
+        required: true
+      responses:
+        "202":
+          description: Successful response.
+      operationId: updateDSGT
+      summary: Update a DSGT
+      description: Updates an existing `DSGT`.
+    delete:
+      responses:
+        "204":
+          description: Successful response.
+      operationId: deleteDSGT
+      summary: Delete a DSGT
+      description: Deletes an existing `DSGT`.
+    parameters:
+    - name: dsgtId
+      description: A unique identifier for a `DSGT`.
+      schema:
+        type: string
+      in: path
+      required: true
+components:
+  schemas:
+    DSGT:
+      title: Root Type for DSGT
+      description: DSGT Item
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        purpose:
+          type: string
+        url:
+          type: string
+        date:
+          format: date-time
+          type: string
+        completed:
+          type: boolean
+      example:
+        name: DSGT Item
+        description: Description of Item
+        purpose: Purpose of Item
+        url: https://www.kaggle.com/
+        date: 2022-02-06T11:02:43.112Z
+        completed: true
+tags:
+- name: dsgt
+  description: DSGT
