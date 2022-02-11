@@ -35,5 +35,4 @@ const DemographicsSlideshow = () => {
       </div>
     )
 };
-
 export default DemographicsSlideshow;
