@@ -39,7 +39,7 @@ const ScheduleItem = (props) => {
         <Row style={styles.buttonRow}>
           <FirstRowButton text="Workshop Notebook" link={notebookLink} />
           <FirstRowButton text="Drill" link={drillLink} />
-          <FirstRowButton text="Recording Link" link={recordingLink} />
+          <FirstRowButton text="Recording" link={recordingLink} />
         </Row>
         <Row style={styles.buttonRow}>
           <SubmitDelivButton

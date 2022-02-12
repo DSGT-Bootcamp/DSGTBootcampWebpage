@@ -41,7 +41,7 @@ const scheduleItems = [
     meeting: "6:30 pm | Ford ES&T L1175",
     deliverableDue: "Feb 20, 2022 | 11:59 pm",
     notebookLink: "https://colab.research.google.com/drive/1iRbUkeACk5AxodY29TQQBfZMlzBC19Zq?usp=sharing",
-    recordingLink: "",
+    recordingLink: "https://bluejeans.com/s/TiNSvycbXF5",
     drillLink: "https://colab.research.google.com/drive/1JQWC-m1OGS9C0sEcbLnf7ARvMjMZ7RbD?usp=sharing",
     submitLink: "https://docs.google.com/document/d/1uJEqO3ddFWRS80BvmvzrODvJYsiYPiHOQgYF5IjVs_M/",
   },

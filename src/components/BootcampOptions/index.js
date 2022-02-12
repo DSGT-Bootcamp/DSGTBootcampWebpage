@@ -1,18 +1,17 @@
-import React from "react";
 import COLORS from "../../constants";
+import React from "react";
 import { Table } from "react-bootstrap";
-import "./tableStyleFile.css";
 
 const BootcampOptions = () => {
   return (
     <div style={styles.mainContainer}>
       <h1 style={styles.title}>Bootcamp Options</h1>
-      <Table responsive borderless style={styles.table}>
+      <Table borderless style={styles.table}>
         <thead>
           <tr>
             <th style={styles.cell_empty}></th>
-            <th style={styles.cell_header_resource}>In-Person Bootcamp</th>
-            <th style={styles.cell_header_prereq}>Udemy</th>
+            <th style={styles.cell_header_top}>In-Person Bootcamp</th>
+            <th style={styles.cell_header_top}>Udemy</th>
           </tr>
         </thead>
         <tbody>
@@ -70,38 +69,28 @@ const styles = {
     margin: "40px auto",
     backgroundColor: COLORS.full_transparent,
     textAlign: "center",
-},
-cell_empty: {
+  },
+  cell_empty: {
     backgroundColor: COLORS.full_transparent,
-    width: "33.3%",
-    borderRight: "0.5px solid " + COLORS.gray_font_60,
     borderBottom: "0.5px solid " + COLORS.gray_font_60,
-},
-cell_header_resource: {
+  },
+  cell_header_top: {
     backgroundColor: COLORS.full_transparent,
     color: COLORS.primary_blue,
     fontSize: "1.5em",
     fontWeight: "bold",
     width: "33.3%",
-    borderRight: "0.5px solid " + COLORS.gray_font_60,
+    borderLeft: "0.5px solid " + COLORS.gray_font_60,
     borderBottom: "0.5px solid " + COLORS.gray_font_60,
-},
-cell_header_prereq: {
-    backgroundColor: COLORS.full_transparent,
-    color: COLORS.primary_blue,
-    fontSize: "1.5em",
-    fontWeight: "bold",
-    width: "33.3%",
-    borderBottom: "0.5px solid " + COLORS.gray_font_60,
-},
-cell_header_left: {
+  },
+  cell_header_left: {
     backgroundColor: COLORS.full_transparent,
     color: COLORS.primary_blue,
     fontSize: "1.5em",
     fontWeight: "bold",
     width: "33.3%",
     verticalAlign: "middle",
-},
+  },
   cell_normal: {
     backgroundColor: COLORS.full_transparent,
     color: COLORS.gray_font_60,
