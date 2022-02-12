@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import "./App.css";
 import About from "./components/About.js";
-import BootcampOptions from "./components/BootcampOptions";
+import BootcampOptions from "./components/BootcampOptions/index";
 import Footer from "./components/Footer/index";
 import Home from "./components/HomeScreen/Home.js";
 import Mentors from "./components/Mentors/index";

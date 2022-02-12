@@ -7,7 +7,9 @@ const Resources = () => {
     <div style={styles.mainContainer}>
       <h1 style={styles.title}>Resources</h1>
       {resourceItems.map((resourceItem) => {
-        return <ResourceItem resourceItem={resourceItem} />;
+        return (
+          <ResourceItem key={resourceItem.name} resourceItem={resourceItem} />
+        );
       })}
     </div>
   );
