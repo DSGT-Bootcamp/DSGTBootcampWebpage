@@ -38,8 +38,8 @@ const ScheduleItem = (props) => {
       <Container style={styles.allButtonsContainer}>
         <Row style={styles.buttonRow}>
           <FirstRowButton text="Workshop Notebook" link={notebookLink} />
-          <FirstRowButton text="Recording Link" link={recordingLink} />
           <FirstRowButton text="Drill" link={drillLink} />
+          <FirstRowButton text="Recording Link" link={recordingLink} />
         </Row>
         <Row style={styles.buttonRow}>
           <SubmitDelivButton
@@ -76,6 +76,11 @@ const FirstRowButton = (props) => {
     firstRowButtonStyles.current.color = COLORS.white;
   }
 
+  let disabled = false;
+  if (props.link === "") {
+    disabled = true;
+  }
+
   return (
     <Button
       style={firstRowButtonStyles.current}
@@ -88,6 +93,7 @@ const FirstRowButton = (props) => {
       onClick={() => {
         window.location.href = props.link;
       }}
+      disabled={disabled}
     >
       {props.text}
     </Button>
