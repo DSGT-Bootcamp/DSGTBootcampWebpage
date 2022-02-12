@@ -1,6 +1,6 @@
 import COLORS from "../../constants";
 import React from "react";
-import { Col, Row, Container } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 
 const ResourceItem = (props) => {
   const [name, prereq, link] = [
@@ -31,7 +31,7 @@ const styles = {
     paddingTop: "20px",
     alignItems: "center",
     justifyContent: "center",
-    width: "80%",
+    width: "60%",
   },
   title: {
     textAlign: "center",
@@ -48,10 +48,7 @@ const styles = {
     fontWeight: "650",
     color: COLORS.primary_blue,
   },
-  detailsContainer: {
-    maxWidth: "60%",
-    margin: "0 0 0 30px",
-  },
+  detailsContainer: {},
   headline: {
     color: COLORS.light_blue,
   },

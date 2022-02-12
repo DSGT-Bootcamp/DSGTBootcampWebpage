@@ -9,7 +9,14 @@ const Contact = () => {
   const thisYear = new Date().getFullYear();
   return (
     <div style={styles.mainContainer}>
-      <img src={DSGTLogo} style={styles.dsgtLogo} />
+      <Button
+        style={styles.logoButton}
+        onClick={() => {
+          window.location.href = "/";
+        }}
+      >
+        <img src={DSGTLogo} style={styles.dsgtLogo} />
+      </Button>
       <p style={styles.copyright}>
         Copyright © {thisYear} DSGT. All rights reserved.
       </p>
@@ -72,6 +79,18 @@ const styles = {
   contactLogo: {
     height: "100%",
     width: "100%",
+  },
+  logoButton: {
+    ackgroundColor: COLORS.full_transparent,
+    borderColor: COLORS.full_transparent,
+    margin: "10px",
+    width: "50px",
+    height: "50px",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginInline: "25px",
   },
   contactButton: {
     backgroundColor: COLORS.full_transparent,
