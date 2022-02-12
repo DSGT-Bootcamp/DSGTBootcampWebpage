@@ -7,7 +7,7 @@ import Home from './components/HomeScreen/Home.js';
 import Mentors from './components/Mentors/index';
 import Navigation from './components/Navigation';
 import ReactGA from 'react-ga';
-import Resource from './components/Resource';
+import Resource from './components/Resources/index';
 import RouteChangeTracker from './components/RouteChangeTracker';
 import Schedule from './components/Schedule/index';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
