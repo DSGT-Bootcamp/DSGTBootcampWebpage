@@ -5,7 +5,12 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import ThirdScrollScreenBackground from "../../images/homescreen_images/third_screen_background.png";
 
-const ThirdScrollScreen = (props) => {
+import MLLogo from "../../images/homescreen_images/brain.png";
+import NumpyLogo from "../../images/homescreen_images/numpy.png";
+import PandasLogo from "../../images/homescreen_images/pandas.svg";
+import PythonLogo from "../../images/homescreen_images/python.png";
+
+const ThirdScrollScreen = () => {
   return (
     <div style={styles.mainContainer}>
       <div style={styles.allContent}>
@@ -50,10 +55,7 @@ const scrollScreenHeight = () => {
   // return (1080 - navBarHeight).toString() + "px";
 };
 
-import PythonLogo from "../../images/homescreen_images/python.png";
-import PandasLogo from "../../images/homescreen_images/pandas.svg";
-import NumpyLogo from "../../images/homescreen_images/numpy.png";
-import MLLogo from "../../images/homescreen_images/brain.png";
+
 
 const itemsToTeach = {
   python: {
