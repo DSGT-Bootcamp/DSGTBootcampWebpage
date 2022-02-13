@@ -2,6 +2,7 @@ import "react-slideshow-image/dist/styles.css";
 import COLORS from "../../constants";
 import PastProjects from "./PastProjects";
 import React from "react";
+import ThreePieCharts from "./ThreePieCharts";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
         questions by analyzing data.
       </p>
       <hr style={styles.line} />
-      <h2 style={styles.slideshowTitleText}>
+      <h2 style={styles.h2Titles}>
         Here are some sample projects from previous bootcamps!
       </h2>
       <PastProjects />
@@ -27,6 +28,10 @@ const About = () => {
         Bootcamp is the ideal place to jumpstart your data science career!
       </p>
       <hr style={styles.line} />
+      <h2 style={styles.h2Titles}>
+        Here are some demographics from Fall 2021's Bootcamp!
+      </h2>
+      <ThreePieCharts />
     </div>
   );
 };
@@ -45,9 +50,10 @@ const styles = {
     fontSize: "3em",
     color: COLORS.primary_blue,
   },
-  slideshowTitleText: {
+  h2Titles: {
     color: COLORS.primary_blue,
     fontSize: "2em",
+    marginBlock: "20px",
   },
   aboutText: {
     color: COLORS.primary_blue,
