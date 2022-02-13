@@ -1,5 +1,5 @@
 import COLORS from "../../constants";
-import DSGTLogo from "../../images/dsgt-logo-light.png";
+import DSGTLogo from "../../images/logos/dsgt-logo-light.png";
 import EmailLogo from "../../images/footer/email.png";
 import FacebookLogo from "../../images/footer/facebook.png";
 import LinkedInLogo from "../../images/footer/linkedin.png";

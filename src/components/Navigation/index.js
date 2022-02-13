@@ -1,5 +1,5 @@
 import COLORS from "../../constants";
-import Logo from "../../images/dsgt-logo-light.png";
+import Logo from "../../images/logos/dsgt-logo-light.png";
 import NavLinkButton from "./NavLinkButton";
 import { Navbar, Nav, Container } from "react-bootstrap";
 

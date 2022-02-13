@@ -30,7 +30,7 @@ const styles = {
   mainContainer: {
     display: "flex",
     flexDirection: "column",
-    paddingTop: "20px",
+    marginBlock: "20px",
     alignItems: "center",
     justifyContent: "center",
   },
