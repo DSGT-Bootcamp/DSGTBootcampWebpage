@@ -75,7 +75,7 @@ export const mentors = [
     name: "Shasha Liao",
     img: Shasha,
     headline:
-      "Mathematics and Compututational Science & Engineering  | 4th year",
+      "Mathematics and Compututational Science & Engineering  | Graduated",
     fun_fact:
       "I believe that UFOs exist and they might come from beyond Earth!",
   },
