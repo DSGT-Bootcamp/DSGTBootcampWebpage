@@ -3,6 +3,10 @@ import Container from "react-bootstrap/Container";
 import ItemToTeach from "./ItemToTeach";
 import React from "react";
 import Row from "react-bootstrap/Row";
+import PythonLogo from "../../images/homescreen_images/python.png";
+import PandasLogo from "../../images/homescreen_images/pandas.svg";
+import NumpyLogo from "../../images/homescreen_images/numpy.png";
+import MLLogo from "../../images/homescreen_images/brain.png";
 import ThirdScrollScreenBackground from "../../images/homescreen_images/third_screen_background.png";
 
 const ThirdScrollScreen = (props) => {
@@ -50,10 +54,7 @@ const scrollScreenHeight = () => {
   // return (1080 - navBarHeight).toString() + "px";
 };
 
-import PythonLogo from "../../images/homescreen_images/python.png";
-import PandasLogo from "../../images/homescreen_images/pandas.svg";
-import NumpyLogo from "../../images/homescreen_images/numpy.png";
-import MLLogo from "../../images/homescreen_images/brain.png";
+
 
 const itemsToTeach = {
   python: {

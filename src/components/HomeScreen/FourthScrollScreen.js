@@ -4,6 +4,8 @@ import FourthScrollTellMe12 from "./FourthScrollTellMe12";
 import FourthScrollTellMe3 from "./FourthScrollTellMe3";
 import React from "react";
 import Row from "react-bootstrap/Row";
+import FirstBall from "../../images/homescreen_images/fourthScrollFirstBall.png";
+import SecondBall from "../../images/homescreen_images/fourthScrollSecondBall.png";
 import { Button } from "react-bootstrap";
 
 const FourthScrollScreen = (props) => {
@@ -97,8 +99,7 @@ const PickButton = (props) => {
 
 export default FourthScrollScreen;
 
-import FirstBall from "../../images/homescreen_images/fourthScrollFirstBall.png";
-import SecondBall from "../../images/homescreen_images/fourthScrollSecondBall.png";
+
 const tellMeItems = {
   what_is_ds: {
     image: FirstBall,
