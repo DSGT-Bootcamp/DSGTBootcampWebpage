@@ -1,8 +1,10 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders dsgt bootcamp link', () => {
+test("renders dsgt bootcamp link", () => {
   render(<App />);
-  const linkElement = screen.getByText(/DSGT Bootcamp/i);
+  const linkElement = screen.getByText(
+    /Georgia Tech/i
+  );
   expect(linkElement).toBeInTheDocument();
 });
