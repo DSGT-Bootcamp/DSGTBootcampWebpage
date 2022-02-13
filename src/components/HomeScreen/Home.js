@@ -6,15 +6,19 @@ import ThirdScrollScreen from "./ThirdScrollScreen";
 import WelcomeToNewMsg from "./WelcomeToNewMsg";
 
 const Home = () => {
-  const [clicked, setClicked] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <div id="homeScreenMainDiv">
-      {/* {clicked ? undefined : <WelcomeToNewMsg />} */}
       <FirstScrollScreen />
       <SecondScrollScreen />
       <ThirdScrollScreen />
       <FourthScrollScreen />
+      <WelcomeToNewMsg open={open} handleClose={handleClose} />
     </div>
   );
 };
