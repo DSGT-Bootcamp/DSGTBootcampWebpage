@@ -10,7 +10,7 @@ const ThreePieCharts = () => {
     COLORS.primary_green,
     COLORS.primary_blue_70,
     COLORS.light_blue,
-    COLORS.gray_font_60,
+    COLORS.white,
   ];
 
   return (
