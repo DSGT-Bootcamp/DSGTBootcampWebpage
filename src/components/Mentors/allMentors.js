@@ -3,6 +3,7 @@ import Faris from "../../images/mentors/faris.jpg";
 import Harris from "../../images/mentors/harris.png";
 import Joseph from "../../images/mentors/joseph.png";
 import Karthik from "../../images/mentors/karthik.png";
+import Kruti from "../../images/mentors/kruti.JPG";
 import Long from "../../images/mentors/long.png";
 import Nathan from "../../images/mentors/nathan.png";
 import Neil from "../../images/mentors/neil.png";
@@ -44,6 +45,13 @@ export const mentors = [
     headline: "Computer Science | 4th year",
     fun_fact:
       "Enjoy cooking, riding bikes, hiking, learning about new concepts.",
+  },
+  {
+    name: "Kruti Gupta",
+    img: Kruti,
+    headline: "Computer Science | 2nd year",
+    fun_fact:
+      "I’ve hiked the highest points of 7 states and got to play the piano at Carnegie Hall",
   },
   {
     name: "Long Lam",

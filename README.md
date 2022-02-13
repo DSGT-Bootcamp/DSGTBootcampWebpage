@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[GitHub repo](https://github.com/karkir0003/DSGTBootcampWebpage/)
+
+Redesigned in February 2022 by [Faris Durrani](https://github.com/farisdurrani/).
+
 ## Available Scripts
 
 In the project directory, you can run:
