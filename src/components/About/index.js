@@ -44,7 +44,8 @@ const styles = {
   mainContainer: {
     display: "flex",
     flexDirection: "column",
-    paddingTop: "20px",
+    marginTop: "20px",
+    marginBottom: "40px",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -57,7 +58,7 @@ const styles = {
   h2Titles: {
     color: COLORS.primary_blue,
     fontSize: "2em",
-    marginBlock: "20px",
+    marginBlock: "40px",
   },
   aboutText: {
     color: COLORS.primary_blue,

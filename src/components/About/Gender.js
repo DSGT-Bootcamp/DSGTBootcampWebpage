@@ -37,7 +37,7 @@ const styles = {
   },
   title: {
     color: COLORS.primary_blue,
-    marginBlock: "20px",
+    marginBlock: "40px",
   },
   genderData: {
     alignItems: "center",
