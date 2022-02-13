@@ -7,7 +7,7 @@ const FourthScrollTellMe12 = (props) => {
     <div style={styles.mainContainer}>
       <img
         style={styles.ball}
-        alt="Decorative data science picture"
+        alt="Decorative data science"
         src={props.image}
       />
       <Col style={styles.details}>
