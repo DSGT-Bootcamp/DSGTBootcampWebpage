@@ -13,7 +13,7 @@ import Vindhya from "../../images/mentors/vindhya.png";
 
 export const mentors = [
   {
-    name: "Abhijat Chaudran",
+    name: "Abhijat Chauhan",
     img: Abhijat,
     headline: "Computer Science | 2nd year",
     fun_fact:

@@ -54,7 +54,7 @@ const resourceItems = [
   },
   {
     name: "Neural Networks and Deep Learning",
-    prereq: "None",
+    prereq: "	Familiarity with Linear Algebra, Calculus, and Python",
     link: "https://neuralnetworksanddeeplearning.com/index.html",
   },
   {
