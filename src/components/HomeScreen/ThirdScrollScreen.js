@@ -21,23 +21,27 @@ const ThirdScrollScreen = () => {
               logo={itemsToTeach.python.logo}
               title={itemsToTeach.python.title}
               text={itemsToTeach.python.text}
-            />
+              logoAlt="Python logo"
+              />
             <ItemToTeach
               logo={itemsToTeach.pandas.logo}
               title={itemsToTeach.pandas.title}
               text={itemsToTeach.pandas.text}
-            />
+              logoAlt="Pandas logo"
+              />
           </Row>
           <Row>
             <ItemToTeach
               logo={itemsToTeach.numpy.logo}
               title={itemsToTeach.numpy.title}
               text={itemsToTeach.numpy.text}
-            />
+              logoAlt="Numpy logo"
+              />
             <ItemToTeach
               logo={itemsToTeach.ml.logo}
               title={itemsToTeach.ml.title}
               text={itemsToTeach.ml.text}
+              logoAlt="Random brain sticker"
             />
           </Row>
         </Container>

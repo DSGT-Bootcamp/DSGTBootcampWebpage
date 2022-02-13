@@ -5,7 +5,11 @@ import React from "react";
 const FourthScrollTellMe12 = (props) => {
   return (
     <div style={styles.mainContainer}>
-      <img style={styles.ball} src={props.image} />
+      <img
+        style={styles.ball}
+        alt="Decorative data science picture"
+        src={props.image}
+      />
       <Col style={styles.details}>
         <div style={styles.text}>{props.text}</div>
         <hr style={styles.lineSpearator} />

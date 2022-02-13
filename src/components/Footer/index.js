@@ -15,7 +15,7 @@ const Contact = () => {
           window.location.href = "/";
         }}
       >
-        <img src={DSGTLogo} style={styles.dsgtLogo} />
+        <img src={DSGTLogo} alt="DSGT logo" style={styles.dsgtLogo} />
       </Button>
       <p style={styles.copyright}>
         Copyright © {thisYear} DSGT. All rights reserved.
@@ -27,7 +27,7 @@ const Contact = () => {
             window.location.href = "https://www.facebook.com/datasciencegt/";
           }}
         >
-          <img src={FacebookLogo} style={styles.contactLogo} />
+          <img src={FacebookLogo} alt="Facebook logo" style={styles.contactLogo} />
         </Button>
         <Button
           style={styles.contactButton}
@@ -35,7 +35,7 @@ const Contact = () => {
             window.location.href = "mailto:hello@datasciencegt.org";
           }}
         >
-          <img src={EmailLogo} style={styles.contactLogo} />
+          <img src={EmailLogo} alt="Email logo" style={styles.contactLogo} />
         </Button>
         <Button
           style={styles.contactButton}
@@ -43,7 +43,7 @@ const Contact = () => {
             window.location.href = "https://www.linkedin.com/company/dsgt/";
           }}
         >
-          <img src={LinkedInLogo} style={styles.contactLogo} />
+          <img src={LinkedInLogo} alt="LinkedIn logo" style={styles.contactLogo} />
         </Button>
       </div>
     </div>

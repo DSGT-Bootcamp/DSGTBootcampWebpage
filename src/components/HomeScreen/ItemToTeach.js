@@ -4,7 +4,7 @@ import React from "react";
 const ItemToTeach = (props) => {
   return (
     <div style={styles.mainContainer}>
-      <img style={styles.logo} src={props.logo} />
+      <img style={styles.logo} alt={props.logoAlt} src={props.logo} />
       <div style={styles.details}>
         <h3 style={styles.detailsTitle}>{props.title}</h3>
         <hr style={styles.lineSpearator} />

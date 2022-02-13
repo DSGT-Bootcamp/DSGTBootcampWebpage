@@ -6,7 +6,7 @@ import React from "react";
 const ResourceItem = (props) => {
   return (
     <div style={styles.resourceItem}>
-      <img style={styles.image} src={props.image} />
+      <img style={styles.image} alt={props.imageAlt} src={props.image} />
       <hr style={styles.lineSpearator} />
       <p style={styles.text}>{props.text}</p>
     </div>
@@ -19,11 +19,13 @@ const FourthScrollTellMe3 = (props) => {
       <ResourceItem
         image={resourceItems.kaggle.image}
         text={resourceItems.kaggle.text}
-      />
+        imageAlt="Kaggle logo"
+        />
       <div style={{ paddingLeft: "10%" }}></div>
       <ResourceItem
         image={resourceItems.python.image}
         text={resourceItems.python.text}
+        imageAlt="Python logo"
       />
     </div>
   );
