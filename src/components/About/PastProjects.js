@@ -5,6 +5,7 @@ import health from "../../images/past_projects_images/health.png";
 import income from "../../images/past_projects_images/income.png";
 import nn from "../../images/past_projects_images/nn.png";
 import { Slide } from "react-slideshow-image";
+import COLORS from "../../constants";
 
 const PastProjects = () => {
   return (
@@ -12,7 +13,8 @@ const PastProjects = () => {
       {past_project_slides.map((project) => {
         return (
           <div className="each-slide" style={styles.eachSlide}>
-            <img src={project.img} alt={project.alt} />
+            <p style={styles.slideTitle}>{project.title}</p>
+            <img src={project.img} alt={project.title} />
           </div>
         );
       })}
@@ -28,28 +30,32 @@ const styles = {
   },
   eachSlide: {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
+    fontStyle: "italic",
+    color: COLORS.primary_blue,
+  },
+  slideTitle: {
   },
 };
 
 const past_project_slides = [
   {
     img: disease,
-    alt: "Disease occurrence across cities",
+    title: "Disease occurrence across cities",
   },
   {
     img: health,
-    alt: "Code for cancer costs analysis",
+    title: "Code for cancer costs analysis",
   },
   {
     img: income,
-    alt: "Segregation data",
+    title: "Segregation data",
   },
   {
     img: nn,
-    alt: "Neural network performance",
+    title: "Neural network performance",
   },
 ];
 

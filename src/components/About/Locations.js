@@ -63,7 +63,7 @@ const Locations = () => {
 
 const styles = {
   mainContainer: {
-    maxWidth: "70%",
+    width: "70%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",

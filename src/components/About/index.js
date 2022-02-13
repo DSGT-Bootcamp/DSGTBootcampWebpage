@@ -1,10 +1,10 @@
 import "react-slideshow-image/dist/styles.css";
 import COLORS from "../../constants";
+import Gender from "./Gender";
+import Locations from "./Locations";
 import PastProjects from "./PastProjects";
 import React from "react";
 import ThreePieCharts from "./ThreePieCharts";
-import Gender from "./Gender";
-import Locations from "./Locations";
 
 const About = () => {
   return (
