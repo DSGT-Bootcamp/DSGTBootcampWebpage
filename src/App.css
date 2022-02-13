@@ -12,41 +12,6 @@ html {
   height: 100%;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #2c54a3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 Table {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #eeeeee;
@@ -67,36 +32,3 @@ Table th {
   background-color: #1c6ea4;
   color: white;
 }
-
-/* .bg-image { */
-/* background-color: rgb(18, 77, 129); */
-/* background-image: url("/src/images/dataviz.png"); */
-/* } */
-
-/* body { */
-  /* background-color: rgb(64, 65, 61); */
-  /* background-image: url("/src/images/old_homepage_background.jpg"); */
-  /* height: 100%; */
-  /* min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  color: blue;
-  background-position: top center;
-  background: "linear-gradient(to bottom, rgba(0,22,41,1), rgba(0,22,41,0.7), rgba(0,99,185,0.7), rgba(0,99,185,0.7))";
-}
-p {
-  margin-top: 50px;
-}
-
-.bottom-nav {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  bottom: 0;
-  right: 0;
-  background-color: white;
-  z-index: 1;
-  height: 64px;
-  border-top: 1px solid #ebebeb;
-} */
