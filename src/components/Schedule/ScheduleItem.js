@@ -11,7 +11,6 @@ const ScheduleItem = (props) => {
     meeting,
     deliverableDue,
     notebookLink,
-    recordingLink,
     drillLink,
     submitLink,
   ] = [
@@ -20,7 +19,6 @@ const ScheduleItem = (props) => {
     props.scheduleItem.meeting,
     props.scheduleItem.deliverableDue,
     props.scheduleItem.notebookLink,
-    props.scheduleItem.recordingLink,
     props.scheduleItem.drillLink,
     props.scheduleItem.submitLink,
   ];

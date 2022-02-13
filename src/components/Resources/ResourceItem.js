@@ -33,12 +33,6 @@ const styles = {
     justifyContent: "center",
     width: "60%",
   },
-  title: {
-    textAlign: "center",
-    fontWeight: "bold",
-    fontSize: "3em",
-    color: COLORS.primary_blue,
-  },
   pic: {
     maxWidth: "250px",
     maxHeight: "250px",

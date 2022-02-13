@@ -45,7 +45,7 @@ const FirstScrollScreen = () => {
         </Button>
       </div>
 
-      <img style={styles.halfLogo} src={HalfLogo} />
+      <img style={styles.halfLogo} alt="DSGT logo" src={HalfLogo} />
     </div>
   );
 };
