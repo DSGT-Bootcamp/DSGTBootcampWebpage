@@ -3,6 +3,8 @@ import COLORS from "../../constants";
 import PastProjects from "./PastProjects";
 import React from "react";
 import ThreePieCharts from "./ThreePieCharts";
+import Gender from "./Gender";
+import Locations from "./Locations";
 
 const About = () => {
   return (
@@ -32,6 +34,8 @@ const About = () => {
         Here are some demographics from Fall 2021's Bootcamp!
       </h2>
       <ThreePieCharts />
+      <Gender />
+      <Locations />
     </div>
   );
 };
