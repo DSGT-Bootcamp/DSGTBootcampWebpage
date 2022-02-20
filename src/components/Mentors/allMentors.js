@@ -11,6 +11,7 @@ import Nick from "../../images/mentors/nicholas.png";
 import Shasha from "../../images/mentors/shasha.png";
 import Shreiyas from "../../images/mentors/shreiyas.png";
 import Vindhya from "../../images/mentors/vindhya.png";
+import Krishi from "../../images/mentors/Krishi.JPG";
 
 export const mentors = [
   {
@@ -99,5 +100,10 @@ export const mentors = [
     headline: "Computer Science | 2nd year",
     fun_fact:
       "I am a henna artist, I am a huge foodie, I love to try new ethnic foods, my favorite tv-show is Psych, and I love to play tennis in my free time.",
+  },
+  {
+    name: "Krishi Manek",
+    img: Krishi,
+    headline: "Computer Science | 1st year",
   },
 ];
