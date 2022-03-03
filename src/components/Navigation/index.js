@@ -11,6 +11,7 @@ const Navigation = () => {
         expand="lg"
         class="container-fluid"
         fixed="top"
+        variant="dark"
         style={styles.navBar}
       >
         <Container fluid>
@@ -67,7 +68,6 @@ const styles = {
   },
   navBar: {
     background: COLORS["primary_blue"],
-    width: "100%",
     height: navBarHeight,
   },
   navBarItem: {
