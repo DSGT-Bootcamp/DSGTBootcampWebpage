@@ -1,23 +1,23 @@
-.circleci
+/.circleci
 	-part of the api tool for the website
 
-.idea
+/.idea
 	-more stuff that's part of api tools
 
-.vscode
+/.vscode
 	-vscode settings, set to default
 
-public
+/public
 	-contains the base files that come with react
 	index.html
 		-the basic webpage
 ^^^Best to not edit any of these as it may cause problems with the functionality/implementation of the website
 	
 
-src
+/src
 	-source files for basically everything that is displayed on the website
-	components
-		About
+	/components
+		/About
 			Ethinicities.js
 				-pie chart with data of student ethnicity
 			Gender.js
@@ -34,13 +34,13 @@ src
 				-a pie chart with data of student year
 			index.js
 				-the webpage which takes the above elements and displays them on the About tab
-		AboutSlideshow
+		/AboutSlideshow
 			-takes the slideshow from About folder and formats it into a proper slideshow on the tab
-		BootcampOptions
+		/BootcampOptions
 			-a table that shows the differences between the Udemy course and the in person Bootcamp
-		Footer
+		/Footer
 			-the footer with DSGT logo and social media links at the bottom of the website
-		HomeScreen
+		/HomeScreen
 			FirstScrollScreen.js
 				-displays the top of the website not including the header, with the logo and apply button
 			FourthScroolScreen.js
@@ -59,24 +59,24 @@ src
 				-the "We Teach" section of the website
 			WelcomeToNewMsg.js
 				-now vestigial welcome popup to the new website
-		Mentors
+		/Mentors
 			Mentor.js
 				-formats each mentor's entry in the mentors tab
 			allMentors.js
 				-contains all of the information for each of the members
 			index.js
 				-displays the actual page on the website
-		Navigation
+		/Navigation
 			NavLinkButton.js
 				-the functionality of the header bar to navigate between the pages
 			index.js
 				-displays the navigation bar at the top of the website
-		Resources
+		/Resources
 			ResourceItem.js
 				-formats each of the items on the resources page
 			index.js
 				-displays the resources page
-		Schedule
+		/Schedule
 			ScheduleItem.js
 				-formats each of the items on the schedule page
 			index.js
@@ -85,16 +85,16 @@ src
 			-displays while page is loading
 		RouteChangeTracker.js
 			-helps with tracking for Google analytics and changing in between pages
-	images
-		footer
+	/images
+		/footer
 			-images for the linkedin, email, and facebook links on the footer of the website
-		homescreen_images
+		/homescreen_images
 			-images for every image on the homescreen
-		logos
+		/logos
 			-images of the dsgt logo
-		mentors
+		/mentors
 			-portraits of all of the bootcamp mentors
-		past_projects_images
+		/past_projects_images
 			-pictures for the about page slideshow of past bootcamp projects (from Fall 2021)
 	App.css
 		-css formatting for the website/components
