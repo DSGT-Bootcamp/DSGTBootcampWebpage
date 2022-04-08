@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [GitHub repo](https://github.com/karkir0003/DSGTBootcampWebpage/)
 
-Redesigned in February 2022 by [Faris Durrani](https://github.com/farisdurrani/).
+Redesigned in February 2022 by [Faris Durrani](https://github.com/farisdurrani/). :)
+
+Documentation can be found in `DSGTBootcampWebpage_Docs.md` or `DSGTBootcampWebpage_Docs.pdf` files
 
 ## Available Scripts
 
