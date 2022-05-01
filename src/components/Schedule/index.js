@@ -53,7 +53,7 @@ const scheduleItems = [
     notebookLink: "https://colab.research.google.com/drive/13oP0lzMM4IiiDIDb7RHHXonTdJFAsS0u?usp=sharing",
     drillLink: "https://colab.research.google.com/drive/1qes9nv_Gn2TTvqtN78cZYklj04-NM9bS?usp=sharing",
     submitLink: "https://docs.google.com/document/d/1J0M8ZEgrgHk467SmtCTAzW6x2HHLRnkB8lWV3H-gFNQ/",
-    recordingLink: "https://dsgtbootcamp.netlify.app/schedule",
+    recordingLink: "",
   },
   {
     date: "Mar 07, 2022",
@@ -73,7 +73,7 @@ const scheduleItems = [
     notebookLink: "https://colab.research.google.com/drive/1CCYdhAOUxzeB63fR9lz8ZbeoVS6_R4Ic?usp=sharing",
     drillLink: "https://colab.research.google.com/drive/1MSh93SV_JyqSl2G6c24a0p1PN4kEimbx?usp=sharing",
     submitLink: "https://docs.google.com/document/d/1jnCDKxo1qrYtyxxFE50RRgRmzzuPf5EoHy3TkC3T09U/",
-    recordingLink: "https://dsgtbootcamp.netlify.app/schedule",
+    recordingLink: "https://youtu.be/pfIcfe-gsM8",
   },
   {
     date: "Apr 11, 2022",

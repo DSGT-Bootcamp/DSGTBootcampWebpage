@@ -13,7 +13,7 @@ const ScheduleItem = (props) => {
     notebookLink,
     drillLink,
     submitLink,
-    recordingLink
+    recordingLink,
   ] = [
     props.scheduleItem.date,
     props.scheduleItem.title,
@@ -39,7 +39,9 @@ const ScheduleItem = (props) => {
         <Row style={styles.buttonRow}>
           <FirstRowButton text="Workshop Notebook" link={notebookLink} />
           <FirstRowButton text="Drill" link={drillLink} />
-          <FirstRowButton text="Recording" link={recordingLink} />
+          {recordingLink ? (
+            <FirstRowButton text="Recording" link={recordingLink} />
+          ) : undefined}
         </Row>
         <Row style={styles.buttonRow}>
           <SubmitDelivButton
