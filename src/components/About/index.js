@@ -36,7 +36,6 @@ const About = () => {
       <ThreePieCharts />
       <Gender />
       <Locations />
-      <p style={{color: "black"}}>Hello my name is Jessi and I am a new content creator!</p>
     </div>
   );
 };
