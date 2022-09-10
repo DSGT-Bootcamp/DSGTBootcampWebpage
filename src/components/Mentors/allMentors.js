@@ -3,8 +3,8 @@ import Jason from "../../images/mentors/jason.png";
 import Jessi from "../../images/mentors/jessi.png";
 import Kruti from "../../images/mentors/kruti.JPG";
 import Neil from "../../images/mentors/neil.png";
-/*
 import Vidushi from "../../images/mentors/vidushi.png";
+/*
 import Abhijat from "../../images/mentors/abhijat.png";
 import Harris from "../../images/mentors/harris.png";
 import Joseph from "../../images/mentors/joseph.png";
@@ -53,7 +53,7 @@ export const mentors = [
   },
   {
     name: "Vidushi Maheshwari",
-    //img: Vidushi,
+    img: Vidushi,
     headline: "Computer Science | 2nd year",
     fun_fact: "[ ⇀ ‿ ↼ ]",
   },/*
