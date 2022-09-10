@@ -189,7 +189,7 @@ const styles = {
     margin: "0",
   },
   time: {
-    color: COLORS.cyany,
+    color: COLORS.cyan,
   },
   allButtonsContainer: {
     borderLeft: "6px solid",
