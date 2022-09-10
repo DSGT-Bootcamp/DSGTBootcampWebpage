@@ -49,7 +49,7 @@ const styles = {
     margin: "0 0 0 30px",
   },
   headline: {
-    color: COLORS.light_blue,
+    color: COLORS.cyan,
   },
   line: {
     borderColor: COLORS.primary_green,

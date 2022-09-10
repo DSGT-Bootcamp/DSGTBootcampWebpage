@@ -28,8 +28,8 @@ const ScheduleItem = (props) => {
   return (
     <Col style={styles.mainContainer}>
       <Container style={styles.dateContainer}>
-        <p style={styles.date}>{date}</p>
         <hr style={styles.line} />
+        <p style={styles.date}>{date}</p>
       </Container>
       <Container style={styles.titleTime}>
         <h2 style={styles.title}>{title}</h2>
@@ -93,7 +93,7 @@ const FirstRowButton = (props) => {
         setHovering(false);
       }}
       onClick={() => {
-        window.location.href = props.link;
+        window.open(props.link, '_blank');
       }}
       disabled={disabled}
     >
@@ -149,7 +149,20 @@ const SubmitDelivButton = (props) => {
         setHovering(false);
       }}
       onClick={() => {
-        window.location.href = props.link;
+        if (props.link === "") {
+          var opened = window.open("");
+          opened.document.write(
+            "<html><head><style>" +
+            "body {background-color: #1EA39E;}" +
+            "h1 {color:#262730;font-family:arial black;font-size:56px;font-style:bold;}" +
+            "p {color:#262730;font-family:arial;font-size:36px;font-style:bold;}</style>" + 
+            "<title>To be determined</title></head>" + 
+            "<body><center><h1>Submission details are to be determined.</h1>" +
+            "<p>Check back soon!</p></center></body></html>"
+            );
+        } else {
+          window.open(props.link, '_blank');
+        }
       }}
     >
       <span style={submitDelivButtonStyles.submit}>Submit Deliverable</span>
@@ -176,7 +189,7 @@ const styles = {
     margin: "0",
   },
   time: {
-    color: COLORS.light_blue,
+    color: COLORS.cyany,
   },
   allButtonsContainer: {
     borderLeft: "6px solid",

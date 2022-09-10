@@ -1,31 +1,68 @@
-import Abhijat from "../../images/mentors/abhijat.png";
 import Faris from "../../images/mentors/faris.jpg";
+import Jason from "../../images/mentors/jason.png";
+import Jessi from "../../images/mentors/jessi.png";
+import Kruti from "../../images/mentors/kruti.JPG";
+import Neil from "../../images/mentors/neil.png";
+/*
+import Vidushi from "../../images/mentors/vidushi.png";
+import Abhijat from "../../images/mentors/abhijat.png";
 import Harris from "../../images/mentors/harris.png";
 import Joseph from "../../images/mentors/joseph.png";
 import Karthik from "../../images/mentors/karthik.png";
-import Kruti from "../../images/mentors/kruti.JPG";
 import Long from "../../images/mentors/long.png";
 import Nathan from "../../images/mentors/nathan.png";
-import Neil from "../../images/mentors/neil.png";
 import Nick from "../../images/mentors/nicholas.png";
 import Shasha from "../../images/mentors/shasha.png";
 import Shreiyas from "../../images/mentors/shreiyas.png";
 import Vindhya from "../../images/mentors/vindhya.png";
 import Krishi from "../../images/mentors/Krishi.JPG";
+*/
 
 export const mentors = [
-  {
-    name: "Abhijat Chauhan",
-    img: Abhijat,
-    headline: "Computer Science | 2nd year",
-    fun_fact:
-      "Always interested in science, engineering, and computer science concepts. Have played tennis in high school, and an avid basketball player.",
-  },
   {
     name: "Faris Durrani",
     img: Faris,
     headline: "Computer Science | 4th year",
     fun_fact: "No matter how much I eat, I cannot get fat.",
+  },
+  {
+    name: "Jason Ng",
+    img: Jason,
+    headline: "Computer Science | 4th year",
+    fun_fact: "0010 0001 0001 0000",
+  },
+  {
+    name: "Jessi Chen",
+    img: Jessi,
+    headline: "Computer Science | 3rd year",
+    fun_fact: "0x32313130",
+  },
+  {
+    name: "Kruti Gupta",
+    img: Kruti,
+    headline: "Computer Science | 2nd year",
+    fun_fact:
+      "I’ve hiked the highest points of 7 states and got to play the piano at Carnegie Hall",
+  },
+  {
+    name: "Neil Patel",
+    img: Neil,
+    headline: "Computer Science | 4th year",
+    fun_fact:
+      "I don’t know what to put here tbh ¯\\_(ツ)_/¯",
+  },
+  {
+    name: "Vidushi Maheshwari",
+    //img: Vidushi,
+    headline: "Computer Science | 2nd year",
+    fun_fact: "[ ⇀ ‿ ↼ ]",
+  },/*
+  /*{
+    name: "Abhijat Chauhan",
+    img: Abhijat,
+    headline: "Computer Science | 2nd year",
+    fun_fact:
+      "Always interested in science, engineering, and computer science concepts. Have played tennis in high school, and an avid basketball player.",
   },
   {
     name: "Harris Barton",
@@ -48,13 +85,6 @@ export const mentors = [
       "Enjoy cooking, riding bikes, hiking, learning about new concepts.",
   },
   {
-    name: "Kruti Gupta",
-    img: Kruti,
-    headline: "Computer Science | 2nd year",
-    fun_fact:
-      "I’ve hiked the highest points of 7 states and got to play the piano at Carnegie Hall",
-  },
-  {
     name: "Long Lam",
     img: Long,
     headline: "Computer Science | 1st year",
@@ -65,13 +95,6 @@ export const mentors = [
     img: Nathan,
     headline: "Computer Science | 2nd year",
     fun_fact: "I have a mini golden poodle puppy called coco.",
-  },
-  {
-    name: "Neil Patel",
-    img: Neil,
-    headline: "Computer Science | 2nd year",
-    fun_fact:
-      "I’m still waiting for Donda to drop (lol if that is still true when the website is going up, go ahead and put that). But if not, you can say ‘I am a big Apple fan, I exclusively use their products (Apple Music >>> Spotify).’ ",
   },
   {
     name: "Nicholas Zhang",
@@ -105,5 +128,5 @@ export const mentors = [
     name: "Krishi Manek",
     img: Krishi,
     headline: "Computer Science | 1st year",
-  },
+  },*/
 ];
