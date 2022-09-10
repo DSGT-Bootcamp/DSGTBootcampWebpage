@@ -1,6 +1,7 @@
 // convert RGBA to RGB: https://borderleft.com/toolbox/rgba/
 const COLORS = {
   black: "#000000",
+  cyan: "#1EA39E",
   full_transparent: "#00000000",
   gray_font_60: "#00000066",
   gray_font_transparent: "#FFFFFF80",
