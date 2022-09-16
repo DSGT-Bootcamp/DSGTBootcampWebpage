@@ -36,8 +36,8 @@ const styles = {
     width: "80%",
   },
   pic: {
-    maxWidth: "250px",
-    maxHeight: "250px",
+    maxWidth: "175x",
+    maxHeight: "175px",
   },
   title: {
     fontSize: "2em",

@@ -7,7 +7,7 @@ const makeTooltipContent = (entry) => {
   return `${entry.longTitle} (${entry.value}%)`;
 };
 
-const Ethinicities = (props) => {
+const Ethnicities = (props) => {
   // Adapted from https://github.com/toomuchdesign/react-minimal-pie-chart/blob/master/stories/FullOption.tsx
   const colorChoices = props.colors;
 
@@ -77,7 +77,7 @@ const Ethinicities = (props) => {
 
   return (
     <div style={props.style.mainContainer}>
-      <h3 style={props.style.title}>Ethinicities</h3>
+      <h3 style={props.style.title}>Ethnicities</h3>
       <div data-tip="" data-for="chart" style={{width: "100%"}}>
         <PieChart
           style={{
@@ -126,4 +126,4 @@ const Ethinicities = (props) => {
   );
 };
 
-export default Ethinicities;
+export default Ethnicities;

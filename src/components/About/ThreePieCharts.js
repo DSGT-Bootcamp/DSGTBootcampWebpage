@@ -1,5 +1,5 @@
 import COLORS from "../../constants";
-import Ethinicities from "./Ethinicities";
+import Ethnicities from "./Ethnicities";
 import Major from "./Major";
 import React from "react";
 import Year from "./Year";
@@ -15,7 +15,7 @@ const ThreePieCharts = () => {
 
   return (
     <div style={styles.mainContainer}>
-      <Ethinicities style={styles.pieChartStyles} colors={colors} />
+      <Ethnicities style={styles.pieChartStyles} colors={colors} />
       <Major style={styles.pieChartStyles} colors={colors} />
       <Year style={styles.pieChartStyles} colors={colors} />
     </div>
