@@ -3,6 +3,7 @@ import Jason from "../../images/mentors/jason.png";
 import Jessi from "../../images/mentors/jessi.png";
 import Kruti from "../../images/mentors/kruti.JPG";
 import Neil from "../../images/mentors/neil.png";
+import Saloni from "../../images/mentors/saloni.png";
 import Vidushi from "../../images/mentors/vidushi.png";
 /*
 import Abhijat from "../../images/mentors/abhijat.png";
@@ -50,6 +51,12 @@ export const mentors = [
     headline: "Computer Science | 4th year",
     fun_fact:
       "I don’t know what to put here tbh ¯\\_(ツ)_/¯",
+  },
+  {
+    name: "Saloni Bedi",
+    img: Saloni,
+    headline: "Computer Science | 1st year",
+    fun_fact: "My favorite food is cream cheese (for now).",
   },
   {
     name: "Vidushi Maheshwari",
