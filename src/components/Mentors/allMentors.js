@@ -5,6 +5,7 @@ import Kruti from "../../images/mentors/kruti.JPG";
 import Neil from "../../images/mentors/neil.png";
 import Saloni from "../../images/mentors/saloni.png";
 import Vidushi from "../../images/mentors/vidushi.png";
+import Ronith from "../../images/mentors/ronith.png";
 /*
 import Abhijat from "../../images/mentors/abhijat.png";
 import Harris from "../../images/mentors/harris.png";
@@ -51,6 +52,13 @@ export const mentors = [
     headline: "Computer Science | 4th year",
     fun_fact:
       "I don’t know what to put here tbh ¯\\_(ツ)_/¯",
+  },
+  {
+    name: "Ronith Charugundla",
+    img: Ronith,
+    headline: "Computer Science | 3rd year",
+    fun_fact:
+      "01100010 01110010 01110101 01101000",
   },
   {
     name: "Saloni Bedi",
