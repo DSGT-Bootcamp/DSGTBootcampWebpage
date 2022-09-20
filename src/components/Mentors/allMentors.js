@@ -1,3 +1,4 @@
+import Adith from "../../images/mentors/adith.png";
 import Faris from "../../images/mentors/faris.jpg";
 import Jason from "../../images/mentors/jason.png";
 import Jessi from "../../images/mentors/jessi.png";
@@ -21,6 +22,12 @@ import Krishi from "../../images/mentors/Krishi.JPG";
 */
 
 export const mentors = [
+  {
+    name: "Adith Devakonda",
+    img: Adith,
+    headline: "Computer Science | 3rd year",
+    fun_fact: "I'm a huge Motorsport fan, whatever race it may be (F1, Endurance, etc.) you can talk to me about it!",
+  },
   {
     name: "Faris Durrani",
     img: Faris,
