@@ -32,7 +32,7 @@ const FirstScrollScreen = () => {
         <Button
           style={styles.applyNowBtn}
           onClick={() => {
-            window.open("https://member.datasciencegt.org/portal/forms");
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSdBHCZKidtq1GndKfnJjQEuXQYp0IrrpJZbqueGWq249Vy4vw/viewform");
           }}
           onMouseEnter={() => {
             setHovering(true);
