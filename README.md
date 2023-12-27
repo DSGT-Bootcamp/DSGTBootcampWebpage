@@ -30,9 +30,10 @@ yarn start
 ## CI/CD
 The CI/CD pipeline is powered by CircleCI and Netlify. CircleCI helps with running automated build checks to ensure that the frontend unit tests pass + the app builds fine. Netlify handles automated deployment of the `DSGTBootcampWebpage` (which triggers on webhook Circle CI passes to Netlify). 
 
-Some links that might be helpful include the following:
+Some resources that might be helpful include the following:
 * Circle CI Node image: [Here](https://circleci.com/developer/images/image/cimg/node)
 * React Netlify Deploy: [Here](https://circleci.com/blog/react-netlify-deploy/)
+* Circle CI config file can be found at `.circleci/config.yml`
 
 ## Learn More
 
